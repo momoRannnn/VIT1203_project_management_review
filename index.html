@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>项目管理刷题工具</title>
+  <style>
+:root {
+  --bg: #f5f7f8;
+  --surface: #fff;
+  --surface-2: #f9fbfc;
+  --ink: #1f2933;
+  --muted: #62707d;
+  --line: #dfe5ea;
+  --line-soft: #edf1f4;
+  --primary: #2f6f8f;
+  --primary-soft: #e9f2f6;
+  --good: #2f7d57;
+  --bad: #b4483c;
+  --warn: #8a651d;
+  --radius: 8px;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Helvetica Neue", Arial, sans-serif;
+  --mono: "SF Mono", Menlo, Consolas, monospace;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); line-height: 1.55; }
+button, input { font: inherit; }
+.topbar { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line-soft); backdrop-filter: blur(10px); }
+.topbar-inner { max-width: 1280px; margin: 0 auto; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.brand h1 { font-size: 18px; margin: 0; }
+.brand p { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
+.top-stats { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.stat-pill { background: var(--surface-2); border: 1px solid var(--line-soft); border-radius: 999px; padding: 6px 10px; font-size: 12px; color: var(--muted); }
+.stat-pill b { color: var(--ink); font-size: 15px; margin-right: 3px; }
+.app { max-width: 1280px; margin: 0 auto; padding: 18px 20px 40px; }
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+.tab, .btn, .mode-btn, .chapter-chip, .option { border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.tab { border-radius: 7px; padding: 8px 12px; font-size: 13px; color: var(--muted); }
+.tab:hover, .btn:hover, .mode-btn:hover, .chapter-chip:hover, .option:hover { background: var(--surface-2); }
+.tab.active, .mode-btn.active, .chapter-chip.active { background: var(--primary-soft); border-color: #bad3de; color: var(--ink); font-weight: 700; }
+.view { display: none; }
+.view.active { display: block; }
+.main-grid { display: grid; grid-template-columns: 360px minmax(0, 1fr); gap: 14px; align-items: start; }
+.panel, .question-card, .empty, .result-head, .review-item, .metric { background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--radius); }
+.panel { padding: 14px; }
+.panel h2, .panel h3 { margin: 0 0 10px; }
+.panel h2 { font-size: 18px; }
+.panel h3 { font-size: 15px; }
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+.setup-group { margin-bottom: 14px; }
+.setup-label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+.segmented { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.mode-btn { border-radius: 7px; padding: 9px 10px; text-align: left; font-size: 13px; }
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.field { display: flex; flex-direction: column; gap: 6px; font-size: 12px; color: var(--muted); }
+input { width: 100%; border: 1px solid var(--line); border-radius: 7px; background: #fff; color: var(--ink); padding: 8px 9px; }
+.check-row { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); margin: 8px 0; }
+.check-row input { width: auto; }
+.chapter-list { display: grid; gap: 6px; max-height: 330px; overflow: auto; padding-right: 2px; }
+.chapter-chip { border-radius: 7px; padding: 8px 9px; text-align: left; font-size: 12px; display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.chapter-chip span:first-child { font-weight: 700; color: var(--primary); white-space: nowrap; }
+.btn { border-radius: 7px; padding: 8px 11px; }
+.primary { background: var(--primary); border-color: var(--primary); color: #fff; }
+.primary:hover { background: #265d78; }
+.danger { background: var(--bad); border-color: var(--bad); color: #fff; }
+.danger:hover { background: #98392f; }
+.start-row, .toolbar, .result-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.quiz-shell { min-height: 540px; }
+.empty { padding: 24px; text-align: center; color: var(--muted); border-style: dashed; }
+.session-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+.progress-text { font-size: 13px; color: var(--muted); white-space: nowrap; }
+.progress { height: 8px; background: #e8edf1; border-radius: 999px; overflow: hidden; flex: 1; }
+.progress i { display: block; height: 100%; width: 0; background: var(--primary); border-radius: 999px; transition: width .2s ease; }
+.timer { font-family: var(--mono); font-size: 12px; color: var(--muted); white-space: nowrap; }
+.question-card { padding: 20px; }
+.question-stem { font-size: 20px; line-height: 1.55; margin: 0 0 16px; }
+.option-list { display: grid; gap: 9px; }
+.option { display: grid; grid-template-columns: 34px 1fr; gap: 10px; align-items: start; border-radius: 7px; padding: 12px; text-align: left; }
+.option.selected { border-color: var(--primary); background: var(--primary-soft); }
+.option-label { font-weight: 800; color: var(--primary); font-family: var(--mono); }
+.session-actions { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+.action-side { display: flex; gap: 8px; flex-wrap: wrap; }
+.result-head { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: center; padding: 16px; margin-bottom: 12px; }
+.score { font-size: 42px; font-weight: 900; color: var(--primary); line-height: 1; }
+.review-list { display: grid; gap: 10px; }
+.review-item { padding: 12px; }
+.review-item.correct { border-left: 4px solid var(--good); }
+.review-item.wrong { border-left: 4px solid var(--bad); }
+.review-title { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 6px; }
+.tag { display: inline-flex; border: 1px solid var(--line-soft); border-radius: 999px; background: var(--surface-2); padding: 2px 7px; font-size: 11px; color: var(--muted); }
+.answer-line { font-size: 13px; margin: 4px 0; }
+details { margin-top: 8px; }
+summary { cursor: pointer; color: var(--muted); font-size: 12px; }
+.explain { font-size: 13px; color: var(--muted); background: var(--surface-2); border-radius: 7px; padding: 10px; margin-top: 8px; }
+.dashboard-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 14px; }
+.metric { padding: 14px; }
+.metric b { display: block; font-size: 26px; line-height: 1.1; }
+.metric span { font-size: 12px; color: var(--muted); }
+.stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.chapter-row, .memory-row, .attempt-row { display: grid; gap: 10px; align-items: center; border-bottom: 1px solid var(--line-soft); padding: 9px 0; font-size: 13px; }
+.chapter-row { grid-template-columns: 80px minmax(0,1fr) 70px 110px; }
+.memory-row { grid-template-columns: 60px minmax(0,1fr) 84px 92px 110px; }
+.attempt-row { grid-template-columns: 140px minmax(0,1fr) 80px 90px; }
+.bar { height: 7px; background: #e8edf1; border-radius: 999px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--primary); border-radius: 999px; }
+.status-good { color: var(--good); font-weight: 700; }
+.status-bad { color: var(--bad); font-weight: 700; }
+.status-warn { color: var(--warn); font-weight: 700; }
+.hidden { display: none !important; }
+textarea { font-family: var(--mono); border: 1px solid var(--line); border-radius: 7px; padding: 8px; }
+@media (max-width: 980px) {
+  .topbar-inner { align-items: flex-start; flex-direction: column; }
+  .top-stats { justify-content: flex-start; }
+  .main-grid, .stats-grid { grid-template-columns: 1fr; }
+  .dashboard-grid { grid-template-columns: 1fr 1fr; }
+  .chapter-row { grid-template-columns: 64px 1fr; }
+  .chapter-row .bar { grid-column: 1 / -1; }
+  .memory-row, .attempt-row { grid-template-columns: 1fr; }
+  .quiz-shell { min-height: auto; }
+}
+@media (max-width: 640px) {
+  .app { padding: 14px; }
+  .dashboard-grid, .segmented, .field-row { grid-template-columns: 1fr; }
+  .question-stem { font-size: 18px; }
+  .session-top { align-items: flex-start; flex-direction: column; }
+  .progress { width: 100%; }
+  .result-head { grid-template-columns: 1fr; }
+  .option { grid-template-columns: 28px 1fr; }
+}
+  </style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <h1>项目管理刷题工具</h1>
+      <p>专注刷题；作答时隐藏答案、章节和出处</p>
+    </div>
+    <div class="top-stats">
+      <span class="stat-pill"><b id="topTotal">60</b>题</span>
+      <span class="stat-pill"><b id="topAccuracy">--</b>正确率</span>
+      <span class="stat-pill"><b id="topAttempts">0</b>次练习</span>
+      <span class="stat-pill"><b id="topDue">0</b>到期复习</span>
+    </div>
+  </div>
+</header>
+<main class="app">
+  <nav class="tabs">
+    <button class="tab active" data-view="quiz">刷题</button>
+    <button class="tab" data-view="memory">记忆曲线</button>
+    <button class="tab" data-view="records">练习记录</button>
+  </nav>
+
+  <section id="view-quiz" class="view active">
+    <div class="main-grid">
+      <aside class="panel">
+        <h2>出题设置</h2>
+        <div class="setup-group">
+          <div class="setup-label">模式</div>
+          <div class="segmented">
+            <button class="mode-btn active" data-mode="random">随机刷题</button>
+            <button class="mode-btn" data-mode="chapter">按章节</button>
+            <button class="mode-btn" data-mode="due">到期复习</button>
+            <button class="mode-btn" data-mode="wrong">错题重练</button>
+          </div>
+        </div>
+        <div class="setup-group">
+          <div class="setup-label">章节范围</div>
+          <div class="chapter-list" id="chapterList"></div>
+        </div>
+        <div class="setup-group field-row">
+          <label class="field">题数<input id="questionCount" type="number" min="1" max="60" value="20"></label>
+          <label class="field">限时分钟<input id="timeLimit" type="number" min="0" value="0"></label>
+        </div>
+        <label class="check-row"><input id="shuffleQuestions" type="checkbox" checked> 随机打乱题目顺序</label>
+        <label class="check-row"><input id="shuffleOptions" type="checkbox"> 随机打乱选项顺序</label>
+        <div class="start-row">
+          <button id="startQuiz" class="btn primary">开始刷题</button>
+          <button id="clearChapters" class="btn">清空章节</button>
+        </div>
+      </aside>
+      <section class="quiz-shell" id="quizShell">
+        <div class="empty" id="quizEmpty">选择模式后开始。作答过程中只会显示题干和选项，答案、章节和解析会在交卷后出现。</div>
+        <div id="quizActive" class="hidden">
+          <div class="session-top">
+            <span class="progress-text" id="progressText">1 / 20</span>
+            <div class="progress"><i id="progressBar"></i></div>
+            <span class="timer" id="timerText">00:00</span>
+          </div>
+          <div class="question-card" id="questionCard"></div>
+          <div class="session-actions">
+            <div class="action-side"><button class="btn" id="prevQuestion">上一题</button><button class="btn" id="nextQuestion">下一题</button></div>
+            <div class="action-side"><button class="btn" id="finishQuiz">交卷</button><button class="btn danger" id="abortQuiz">结束本轮</button></div>
+          </div>
+        </div>
+        <div id="quizResult" class="hidden"></div>
+      </section>
+    </div>
+  </section>
+
+  <section id="view-memory" class="view">
+    <div class="dashboard-grid">
+      <div class="metric"><b id="mAccuracy">--</b><span>总正确率</span></div>
+      <div class="metric"><b id="mDone">0</b><span>累计作答</span></div>
+      <div class="metric"><b id="mDue">0</b><span>到期复习</span></div>
+      <div class="metric"><b id="mWeak">0</b><span>薄弱题</span></div>
+    </div>
+    <div class="stats-grid">
+      <section class="panel"><h2>章节正确率</h2><div id="chapterStats"></div></section>
+      <section class="panel"><h2>复习队列</h2><div class="toolbar"><button class="btn primary" id="startDueFromMemory">开始到期复习</button><button class="btn" id="startWrongFromMemory">练错题</button></div><div id="memoryQueue"></div></section>
+    </div>
+  </section>
+
+  <section id="view-records" class="view">
+    <div class="stats-grid">
+      <section class="panel"><h2>练习记录</h2><div id="attemptList"></div></section>
+      <section class="panel"><h2>数据管理</h2><p class="muted small">记录保存在当前浏览器的 localStorage 中。</p><div class="toolbar"><button class="btn" id="exportData">导出记录</button><button class="btn danger" id="resetData">清空记录</button></div><textarea id="exportBox" class="hidden" rows="12" style="width:100%;margin-top:10px"></textarea></section>
+    </div>
+  </section>
+</main>
+<script src="questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

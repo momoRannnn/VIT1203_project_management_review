@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "Q01",
+    "num": 1,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following statements are considered FALSE?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Operations are undertaken to sustain an organization's business."
+      },
+      {
+        "key": "B",
+        "text": "Projects are undertaken to create unique products, services, or results."
+      },
+      {
+        "key": "C",
+        "text": "Projects have well-defined objectives"
+      },
+      {
+        "key": "D",
+        "text": "Operations are considered temporary work compared to project work"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "Operations are considered temporary work compared to project work",
+    "chapter": "第1章 Introduction to Project Management",
+    "chapterId": "CH01",
+    "chapterNo": 1,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 1.pdf，第8页",
+    "sourceExcerpt": "“A project is ‘a temporary endeavor undertaken to create a unique product, service, or result’”；“Operations is work done to sustain the business”。",
+    "explanationMd": "**答案：** D. Operations are considered temporary work compared to project work  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 1.pdf`，第8页。  \n**原文摘录：** “A project is ‘a temporary endeavor undertaken to create a unique product, service, or result’”；“Operations is work done to sustain the business”。  \n**一致性或同义替换说明：** 课件明确说 project 是 temporary，operations 是 sustain the business；D 把 temporary 错放到 operations 上，因此为 false。",
+    "knowledgePointIds": [
+      "kp_project_vs_operations"
+    ],
+    "knowledgePoint": "项目 vs 运营",
+    "mnemonic": "项目=临时+独特；运营=持续+维持业务。",
+    "trap": "看到 temporary 要想到 project，不要把 temporary 套到 operations。"
+  },
+  {
+    "id": "Q02",
+    "num": 2,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "The role of a __________ is to provide direction and funding for a project.",
+    "options": [
+      {
+        "key": "A",
+        "text": "project manager"
+      },
+      {
+        "key": "B",
+        "text": "project sponsor"
+      },
+      {
+        "key": "C",
+        "text": "support staff member"
+      },
+      {
+        "key": "D",
+        "text": "project team"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "project sponsor",
+    "chapter": "第1章 Introduction to Project Management",
+    "chapterId": "CH01",
+    "chapterNo": 1,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 1.pdf，第12页",
+    "sourceExcerpt": "“The project sponsor usually provides the direction and funding for the project”。",
+    "explanationMd": "**答案：** B. project sponsor  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 1.pdf`，第12页。  \n**原文摘录：** “The project sponsor usually provides the direction and funding for the project”。  \n**一致性或同义替换说明：** 题干 “provide direction and funding for a project” 与课件原文一致，主体为 project sponsor。",
+    "knowledgePointIds": [
+      "kp_project_sponsor"
+    ],
+    "knowledgePoint": "项目发起人",
+    "mnemonic": "Sponsor = direction + funding。",
+    "trap": "不要选 project manager；经理负责管理，sponsor 给方向和钱。"
+  },
+  {
+    "id": "Q03",
+    "num": 3,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following project objectives are FALSE?",
+    "options": [
+      {
+        "key": "A",
+        "text": "They have a definite beginning and end."
+      },
+      {
+        "key": "B",
+        "text": "They have a unique purpose."
+      },
+      {
+        "key": "C",
+        "text": "They are developed using progressive elaboration."
+      },
+      {
+        "key": "D",
+        "text": "They are permanent in nature."
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "They are permanent in nature.",
+    "chapter": "第1章 Introduction to Project Management",
+    "chapterId": "CH01",
+    "chapterNo": 1,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 1.pdf，第8、12页",
+    "sourceExcerpt": "第8页：“A project is ‘a temporary endeavor...’”；第12页：“A project ... is temporary”。",
+    "explanationMd": "**答案：** D. They are permanent in nature.  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 1.pdf`，第8、12页。  \n**原文摘录：** 第8页：“A project is ‘a temporary endeavor...’”；第12页：“A project ... is temporary”。  \n**一致性或同义替换说明：** 课件原文确认项目是 temporary，因此 D 的 permanent in nature 与课件相反，是错误陈述。",
+    "knowledgePointIds": [
+      "kp_project_attributes_temporary"
+    ],
+    "knowledgePoint": "项目属性：临时性",
+    "mnemonic": "项目不是常设部门，是有终点的任务。",
+    "trap": "FALSE 题中 permanent in nature 是反向陷阱。"
+  },
+  {
+    "id": "Q04",
+    "num": 4,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which objective is true of projects?",
+    "options": [
+      {
+        "key": "A",
+        "text": "They have an indefinite beginning and end."
+      },
+      {
+        "key": "B",
+        "text": "They have a unique purpose."
+      },
+      {
+        "key": "C",
+        "text": "They are developed using regressive elaboration."
+      },
+      {
+        "key": "D",
+        "text": "They are permanent in nature."
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "They have a unique purpose.",
+    "chapter": "第1章 Introduction to Project Management",
+    "chapterId": "CH01",
+    "chapterNo": 1,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 1.pdf，第12页",
+    "sourceExcerpt": "“A project ... has a unique purpose”。",
+    "explanationMd": "**答案：** B. They have a unique purpose.  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 1.pdf`，第12页。  \n**原文摘录：** “A project ... has a unique purpose”。  \n**一致性或同义替换说明：** B 选项与课件原文一致。",
+    "knowledgePointIds": [
+      "kp_project_attributes_unique"
+    ],
+    "knowledgePoint": "项目属性：独特目的",
+    "mnemonic": "Unique purpose 是项目关键词。",
+    "trap": "regressive elaboration 和 permanent 都是干扰。"
+  },
+  {
+    "id": "Q05",
+    "num": 5,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following examples can be considered as 'internal stakeholders' for a project organization.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Suppliers"
+      },
+      {
+        "key": "B",
+        "text": "Public citizens"
+      },
+      {
+        "key": "C",
+        "text": "Employees"
+      },
+      {
+        "key": "D",
+        "text": "Competitors"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "Employees",
+    "chapter": "第13章 Project Stakeholder Management",
+    "chapterId": "CH13",
+    "chapterNo": 13,
+    "category": "2",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 13.pdf，第9页",
+    "sourceExcerpt": "“Internal project stakeholders generally include the project sponsor, project team, support staff, and internal customers”；“External project stakeholders include ... competitors, suppliers ... concerned citizens”。",
+    "explanationMd": "**答案：** C. Employees  \n**分类：** 2  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 13.pdf`，第9页。  \n**原文摘录：** “Internal project stakeholders generally include the project sponsor, project team, support staff, and internal customers”；“External project stakeholders include ... competitors, suppliers ... concerned citizens”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| Employees | project sponsor, project team, support staff, internal customers, top management... | 同义概括 | employees 是内部组织成员的概括；其他选项 suppliers/citizens/competitors 均在外部干系人范围。 |",
+    "knowledgePointIds": [
+      "kp_internal_stakeholders"
+    ],
+    "knowledgePoint": "内部干系人",
+    "mnemonic": "Employees 在组织内；suppliers/citizens/competitors 在组织外。",
+    "trap": "stakeholder 不等于 customer；内部/外部按组织边界判断。"
+  },
+  {
+    "id": "Q06",
+    "num": 6,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which is an example of a pre-initiation task?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Drawing up a work breakdown structure"
+      },
+      {
+        "key": "B",
+        "text": "Drafting the project charter"
+      },
+      {
+        "key": "C",
+        "text": "Identifying stakeholders"
+      },
+      {
+        "key": "D",
+        "text": "Developing a business case for a project"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "Developing a business case for a project",
+    "chapter": "第3章 The Project Management Process Groups",
+    "chapterId": "CH03",
+    "chapterNo": 3,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 3.pdf，第15页",
+    "sourceExcerpt": "“Senior managers often perform several pre-initiation tasks, including ... Develop a business case for a project”。",
+    "explanationMd": "**答案：** D. Developing a business case for a project  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 3.pdf`，第15页。  \n**原文摘录：** “Senior managers often perform several pre-initiation tasks, including ... Develop a business case for a project”。  \n**一致性或同义替换说明：** D 选项与课件原文一致。",
+    "knowledgePointIds": [
+      "kp_business_case"
+    ],
+    "knowledgePoint": "预启动任务：商业论证",
+    "mnemonic": "Pre-initiation 先问“值不值得做”。",
+    "trap": "WBS、charter、stakeholder identification 都更靠近启动/规划。"
+  },
+  {
+    "id": "Q07",
+    "num": 7,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following is true of the project life cycle?",
+    "options": [
+      {
+        "key": "A",
+        "text": "In the later phases of the project life cycle, the level of uncertainty is usually the highest."
+      },
+      {
+        "key": "B",
+        "text": "It is much more expensive to make major changes to a project during the earlier phases than the latter phases."
+      },
+      {
+        "key": "C",
+        "text": "More resources are usually needed during the initial phases of a project than during the middle or final phases."
+      },
+      {
+        "key": "D",
+        "text": "In the early phases of a project life cycle, resource needs are usually lowest."
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "In the early phases of a project life cycle, resource needs are usually lowest.",
+    "chapter": "第2章 The Project Management and Information Technology Context",
+    "chapterId": "CH02",
+    "chapterNo": 2,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 2.pdf，第22页",
+    "sourceExcerpt": "“In early phases of a project life cycle: resource needs are usually lowest”。",
+    "explanationMd": "**答案：** D. In the early phases of a project life cycle, resource needs are usually lowest.  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 2.pdf`，第22页。  \n**原文摘录：** “In early phases of a project life cycle: resource needs are usually lowest”。  \n**一致性或同义替换说明：** D 选项与课件原文一致。",
+    "knowledgePointIds": [
+      "kp_lifecycle_resource_needs"
+    ],
+    "knowledgePoint": "生命周期早期资源需求最低",
+    "mnemonic": "早期：资源少、不确定高、改起来便宜。",
+    "trap": "题目常把 early/later、expensive/cheap 对调。"
+  },
+  {
+    "id": "Q08",
+    "num": 8,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "A project __________ is a specific point within a project's life cycle used to measure the progress toward the ultimate goal.",
+    "options": [
+      {
+        "key": "A",
+        "text": "risk register"
+      },
+      {
+        "key": "B",
+        "text": "work break down structure"
+      },
+      {
+        "key": "C",
+        "text": "milestone"
+      },
+      {
+        "key": "D",
+        "text": "schedule network diagram"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "milestone",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 G",
+    "source": "PPT/Chapter 06.pdf，第12页",
+    "sourceExcerpt": "“A milestone is a significant event that normally has no duration”；“They’re useful tools for setting schedule goals and monitoring progress”。",
+    "explanationMd": "**答案：** C. milestone  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 G  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 06.pdf`，第12页。  \n**原文摘录：** “A milestone is a significant event that normally has no duration”；“They’re useful tools for setting schedule goals and monitoring progress”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| specific point within a project's life cycle | significant event | 同义概括 | milestone 是项目中的关键事件/节点。 |\n| used to measure progress | monitoring progress | 同义替换 | 二者都指用里程碑跟踪进展。 |\n\n**排除法说明：** 同组选项中 risk register、WBS、schedule network diagram 均不是“生命周期中的进度节点”。",
+    "knowledgePointIds": [
+      "kp_milestone"
+    ],
+    "knowledgePoint": "里程碑",
+    "mnemonic": "Milestone = 点，不是任务段。",
+    "trap": "milestone 不是 WBS，也不是网络图；它是关键节点。"
+  },
+  {
+    "id": "Q09",
+    "num": 9,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which processes include acquiring and developing the project team, performing quality assurance, distributing information, managing stakeholder expectations, and conducting procurements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "monitoring and controlling"
+      },
+      {
+        "key": "B",
+        "text": "planning"
+      },
+      {
+        "key": "C",
+        "text": "executing"
+      },
+      {
+        "key": "D",
+        "text": "initiation"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "executing",
+    "chapter": "第3章 The Project Management Process Groups",
+    "chapterId": "CH03",
+    "chapterNo": 3,
+    "category": "2",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 3.pdf，第9-10页",
+    "sourceExcerpt": "课件 Table 3-1 的 Executing 列包含 “Perform quality assurance”“Acquire project team”“Develop project team”“Conduct procurements”“Manage stakeholder engagement”等。",
+    "explanationMd": "**答案：** C. executing  \n**分类：** 2  \n**共享选项组：** 无  \n**依据来源：** 课件；教材可辅助核对。  \n**具体出处：** `PPT/Chapter 3.pdf`，第9-10页，Table 3-1；教材 PDF 第111页有与题干更接近的执行过程示例。  \n**原文摘录：** 课件 Table 3-1 的 Executing 列包含 “Perform quality assurance”“Acquire project team”“Develop project team”“Conduct procurements”“Manage stakeholder engagement”等。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| acquiring and developing the project team | Acquire project team；Develop project team | 词形调整 | 题干把两个执行过程合并表述。 |\n| distributing information / managing stakeholder expectations | Manage communications / Manage stakeholder engagement | PMBOK 术语版本差异 | 题干用旧版/通俗表述，课件用 PMBOK 第五版表述，均在 Executing 列。 |\n| conducting procurements | Conduct procurements | 高度一致 | 指向执行过程组。 |",
+    "knowledgePointIds": [
+      "kp_executing_process_group"
+    ],
+    "knowledgePoint": "执行过程组",
+    "mnemonic": "Acquire/Develop team + QA + distribute info + stakeholder + procurement = executing。",
+    "trap": "看到“做事情、组织资源实施”通常是 executing。"
+  },
+  {
+    "id": "Q10",
+    "num": 10,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which knowledge area is responsible for helping organize schedule data and report on resource utilization?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Time/Schedule"
+      },
+      {
+        "key": "B",
+        "text": "Cost"
+      },
+      {
+        "key": "C",
+        "text": "Scope"
+      },
+      {
+        "key": "D",
+        "text": "Scope"
+      }
+    ],
+    "note": "**⚠️ 注意：原题C和D选项文字相同，均为\"Scope\"，疑似出题/截图问题。**",
+    "answerKey": "A",
+    "answerText": "Time/Schedule",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "2",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 06.pdf，第7页",
+    "sourceExcerpt": "“Estimating activity resources: estimating how many resources a project team should use”；“Developing the schedule: analyzing activity sequences, activity resource estimates, and activity duration estimates to create the project schedule”。",
+    "explanationMd": "**答案：** A. Time/Schedule  \n**分类：** 2  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 06.pdf`，第7页。  \n**原文摘录：** “Estimating activity resources: estimating how many resources a project team should use”；“Developing the schedule: analyzing activity sequences, activity resource estimates, and activity duration estimates to create the project schedule”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| organize schedule data | create the project schedule | 同义概括 | 进度管理负责形成和维护进度信息。 |\n| report on resource utilization | activity resource estimates | 相关概念改写 | 资源使用与活动资源估算/进度数据相关，最匹配 Time/Schedule。 |\n\n**题目格式说明：** 原题 C、D 均为 “Scope”，选项疑似重复；不影响 A 为最合理答案。",
+    "knowledgePointIds": [
+      "kp_schedule_management_processes"
+    ],
+    "knowledgePoint": "进度/时间管理",
+    "mnemonic": "时间管理七步：plan, define, sequence, resources, durations, develop, control。",
+    "trap": "题中 Scope 选项重复，是原题问题；按 schedule data 选 Time/Schedule。"
+  },
+  {
+    "id": "Q11",
+    "num": 11,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "__________ management is the process for ensuring that all project activities necessary to design, plan and implement a project are effective and efficient with respect to the purpose of the objective and its performance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Time/Schedule"
+      },
+      {
+        "key": "B",
+        "text": "Scope"
+      },
+      {
+        "key": "C",
+        "text": "Quality"
+      },
+      {
+        "key": "D",
+        "text": "Risk"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "Quality",
+    "chapter": "第8章 Project Quality Management",
+    "chapterId": "CH08",
+    "chapterNo": 8,
+    "category": "2",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 08.pdf，第7页",
+    "sourceExcerpt": "“Project quality management ensures that the project will satisfy the needs for which it was undertaken”。",
+    "explanationMd": "**答案：** C. Quality  \n**分类：** 2  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 08.pdf`，第7页。  \n**原文摘录：** “Project quality management ensures that the project will satisfy the needs for which it was undertaken”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| ensuring project activities ... are effective and efficient | ensures that the project will satisfy the needs | 同义概括 | 题干强调活动有效高效，课件强调满足项目需求，均指质量管理目标。 |\n| purpose of the objective and its performance | needs for which it was undertaken | 同义替换 | 都指项目被开展的目的/需求。 |",
+    "knowledgePointIds": [
+      "kp_quality_management_purpose"
+    ],
+    "knowledgePoint": "质量管理目标",
+    "mnemonic": "Quality = satisfy needs / fitness for use。",
+    "trap": "不要把质量题误选成 Scope 或 Risk。"
+  },
+  {
+    "id": "Q12",
+    "num": 12,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Using the formula for calculating the number of communication channels, how many channels would six people require?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "15",
+    "chapter": "第10章 Project Communications Management",
+    "chapterId": "CH10",
+    "chapterNo": 10,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 10.pdf，第17页",
+    "sourceExcerpt": "“Number of communications channels = n(n-1) / 2”。",
+    "explanationMd": "**答案：** C. 15  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 10.pdf`，第17页。  \n**原文摘录：** “Number of communications channels = n(n-1) / 2”。  \n**一致性或同义替换说明：** 六人沟通渠道数为 `6 * (6 - 1) / 2 = 15`。",
+    "knowledgePointIds": [
+      "kp_communication_channels"
+    ],
+    "knowledgePoint": "沟通渠道公式",
+    "mnemonic": "人数乘前一个数再除以2。",
+    "trap": "别把人数直接乘2，也别忘记除2。"
+  },
+  {
+    "id": "Q13",
+    "num": 13,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which document describes the predicted revenue for projects that an organization is pursuing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "progress reports"
+      },
+      {
+        "key": "B",
+        "text": "status reports"
+      },
+      {
+        "key": "C",
+        "text": "forecasts"
+      },
+      {
+        "key": "D",
+        "text": "lessons-learned reports"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "forecasts",
+    "chapter": "第10章 Project Communications Management",
+    "chapterId": "CH10",
+    "chapterNo": 10,
+    "category": "2",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 10.pdf，第28页",
+    "sourceExcerpt": "“Forecasts predict future project status and progress based on past information and trends”。",
+    "explanationMd": "**答案：** C. forecasts  \n**分类：** 2  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 10.pdf`，第28页。  \n**原文摘录：** “Forecasts predict future project status and progress based on past information and trends”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| predicted revenue for projects | predict future project status and progress | 同义/场景改写 | forecasts 的核心是预测未来信息；选项中只有 forecasts 表示预测类文件。 |",
+    "knowledgePointIds": [
+      "kp_forecasts"
+    ],
+    "knowledgePoint": "预测报告",
+    "mnemonic": "forecast = future / predicted。",
+    "trap": "status 是当前状态，progress 是进展，lessons learned 是经验教训。"
+  },
+  {
+    "id": "Q14",
+    "num": 14,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "A(n) __________ is a tool used to demonstrate the relationship between demands and other artefacts.",
+    "options": [
+      {
+        "key": "A",
+        "text": "requirements traceability matrix"
+      },
+      {
+        "key": "B",
+        "text": "Gantt chart"
+      },
+      {
+        "key": "C",
+        "text": "power/interest grid"
+      },
+      {
+        "key": "D",
+        "text": "issue log"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "requirements traceability matrix",
+    "chapter": "第5章 Project Scope Management",
+    "chapterId": "CH05",
+    "chapterNo": 5,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 A",
+    "source": "PPT/Chapter 05.pdf，第16页",
+    "sourceExcerpt": "“A requirements traceability matrix (RTM) is a table that lists requirements, various attributes of each requirement, and the status of the requirements to ensure that all requirements are addressed”。",
+    "explanationMd": "**答案：** A. requirements traceability matrix  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 A  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 05.pdf`，第16页。  \n**原文摘录：** “A requirements traceability matrix (RTM) is a table that lists requirements, various attributes of each requirement, and the status of the requirements to ensure that all requirements are addressed”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| demands | requirements | 同义替换 | demands 在题干中对应项目需求 requirements。 |\n| relationship between demands and other artefacts | lists requirements, attributes, and status | 同义概括 | RTM 用表格追踪需求与属性/状态等信息的关系。 |\n\n**排除法说明：** 同组选项中 Gantt chart 属于进度展示，power/interest grid 属于干系人分类，issue log 属于问题记录，只有 RTM 对应需求跟踪。",
+    "knowledgePointIds": [
+      "kp_rtm"
+    ],
+    "knowledgePoint": "需求跟踪矩阵 RTM",
+    "mnemonic": "Requirements/demands + relationship/trace = RTM。",
+    "trap": "别被同组选项 Gantt、power/interest、issue log 迷惑。"
+  },
+  {
+    "id": "Q15",
+    "num": 15,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following are sub-processes associated with project schedule/time management?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sequence activities"
+      },
+      {
+        "key": "B",
+        "text": "Continuous Improvement"
+      },
+      {
+        "key": "C",
+        "text": "Distribution of information"
+      },
+      {
+        "key": "D",
+        "text": "Validate work involved"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "Sequence activities",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "1 + 4",
+    "sharedGroup": "共享选项组 C",
+    "source": "PPT/Chapter 06.pdf，第7页",
+    "sourceExcerpt": "“Sequencing activities: identifying and documenting the relationships between project activities”。",
+    "explanationMd": "**答案：** A. Sequence activities  \n**分类：** 1 + 4  \n**共享选项组：** 共享选项组 C  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 06.pdf`，第7页。  \n**原文摘录：** “Sequencing activities: identifying and documenting the relationships between project activities”。  \n**一致性或同义替换说明：** A 选项与课件中的进度管理过程名称一致。  \n**排除法说明：** 同组选项中 B 属质量，C 属沟通，D 属范围；题干问 schedule/time management，故选 A。",
+    "knowledgePointIds": [
+      "kp_sequence_activities"
+    ],
+    "knowledgePoint": "排列活动顺序",
+    "mnemonic": "relationships among activities = sequence。",
+    "trap": "Validate scope 属范围，Distribution 信息属沟通，Continuous improvement 属质量。"
+  },
+  {
+    "id": "Q16",
+    "num": 16,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Outsourcing to provide extra workers during periods of peak workloads can be much more economical than trying to fill entire projects with internal resources. Which advantages does this characteristic of outsourcing provide organizations?",
+    "options": [
+      {
+        "key": "A",
+        "text": "offers control over all aspects of projects that suppliers carry out"
+      },
+      {
+        "key": "B",
+        "text": "provides flexibility"
+      },
+      {
+        "key": "C",
+        "text": "shifts accountability from external suppliers to internal staff"
+      },
+      {
+        "key": "D",
+        "text": "helps avoid any form of dependency on suppliers"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "provides flexibility",
+    "chapter": "第12章 Project Procurement Management",
+    "chapterId": "CH12",
+    "chapterNo": 12,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 12.pdf，第9页",
+    "sourceExcerpt": "课件列出 outsourcing 的好处：“To provide flexibility”。",
+    "explanationMd": "**答案：** B. provides flexibility  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 12.pdf`，第9页。  \n**原文摘录：** 课件列出 outsourcing 的好处：“To provide flexibility”。  \n**一致性或同义替换说明：** B 选项与课件原文一致；题干中的高峰期外包用工是 flexibility 的具体场景。",
+    "knowledgePointIds": [
+      "kp_outsourcing_flexibility"
+    ],
+    "knowledgePoint": "外包优势：灵活性",
+    "mnemonic": "Peak workload + extra workers = flexibility。",
+    "trap": "外包不会让组织控制供应商所有方面，也不会消除依赖。"
+  },
+  {
+    "id": "Q17",
+    "num": 17,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Resource allocation is used for __________.",
+    "options": [
+      {
+        "key": "A",
+        "text": "boosting employee available work time, focus on project timelines and budgets"
+      },
+      {
+        "key": "B",
+        "text": "helping assign the best team for the job, and optimize how work is assigned"
+      },
+      {
+        "key": "C",
+        "text": "monitoring the project and track its progress"
+      },
+      {
+        "key": "D",
+        "text": "resolving resource conflicts by delaying tasks"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "helping assign the best team for the job, and optimize how work is assigned",
+    "chapter": "第9章 Project Human Resource Management",
+    "chapterId": "CH09",
+    "chapterNo": 9,
+    "category": "3.2 + 4",
+    "sharedGroup": "共享选项组 D",
+    "source": "教材 PDF，第174页",
+    "sourceExcerpt": "图中 “Resource Allocation” 阶段对应结果 “Assign resources”。",
+    "explanationMd": "**答案：** B. helping assign the best team for the job, and optimize how work is assigned  \n**分类：** 3.2 + 4  \n**共享选项组：** 共享选项组 D  \n**依据来源：** 教材；排除法。课件中未找到 resource allocation 的直接定义。  \n**具体出处：** 教材 PDF，第174页，Figure 4-3 “Planning process for selecting IT projects”。  \n**原文摘录：** 图中 “Resource Allocation” 阶段对应结果 “Assign resources”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 教材原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| helping assign the best team for the job | Assign resources | 同义扩展 | 题干将“分配资源”具体化为分配合适团队。 |\n| optimize how work is assigned | Resource Allocation | 同义概括 | allocation 的核心就是资源/工作分派优化。 |\n\n**排除法说明：** Q38 的 D 已由课件直接定义为 resource leveling；Q23 的 C 对应 resource histogram；因此 resource allocation 对应 B。",
+    "knowledgePointIds": [
+      "kp_resource_allocation"
+    ],
+    "knowledgePoint": "资源分配",
+    "mnemonic": "Allocation = assign best team/work。",
+    "trap": "monitor progress 是资源直方图；delaying tasks 是资源平衡。"
+  },
+  {
+    "id": "Q18",
+    "num": 18,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "A(n) __________ is a tool used for categorizing stakeholders during a change to allow them to be effectively managed.",
+    "options": [
+      {
+        "key": "A",
+        "text": "requirements traceability matrix"
+      },
+      {
+        "key": "B",
+        "text": "Gantt chart"
+      },
+      {
+        "key": "C",
+        "text": "power/interest grid"
+      },
+      {
+        "key": "D",
+        "text": "issue log"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "power/interest grid",
+    "chapter": "第13章 Project Stakeholder Management",
+    "chapterId": "CH13",
+    "chapterNo": 13,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 A",
+    "source": "PPT/Chapter 13.pdf，第13页",
+    "sourceExcerpt": "“A power/interest grid can be used to group stakeholders based on their level of authority (power) and their level of concern (interest) for project outcomes”。",
+    "explanationMd": "**答案：** C. power/interest grid  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 A  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 13.pdf`，第13页。  \n**原文摘录：** “A power/interest grid can be used to group stakeholders based on their level of authority (power) and their level of concern (interest) for project outcomes”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| categorizing stakeholders ... effectively managed | group stakeholders based on authority and concern | 同义替换 | categorizing 对应 group；有效管理对应按 power/interest 制定管理方式。 |\n\n**排除法说明：** 同组选项中 RTM 属需求跟踪，Gantt chart 属进度计划，issue log 属问题记录；干系人分类工具为 power/interest grid。",
+    "knowledgePointIds": [
+      "kp_power_interest_grid"
+    ],
+    "knowledgePoint": "权力/利益方格",
+    "mnemonic": "Stakeholders + categorize + power/interest = power-interest grid。",
+    "trap": "RTM 管需求，Gantt 管进度，issue log 记问题。"
+  },
+  {
+    "id": "Q19",
+    "num": 19,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which process term is used for identifying and documenting relationships among the project activities?",
+    "options": [
+      {
+        "key": "A",
+        "text": "milestone"
+      },
+      {
+        "key": "B",
+        "text": "activity attribute"
+      },
+      {
+        "key": "C",
+        "text": "activity sequence"
+      },
+      {
+        "key": "D",
+        "text": "schedule baseline"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "activity sequence",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 H",
+    "source": "PPT/Chapter 06.pdf，第7、14页",
+    "sourceExcerpt": "第7页：“Sequencing activities: identifying and documenting the relationships between project activities”；第14页：“A dependency or relationship is the sequencing of project activities or tasks”。",
+    "explanationMd": "**答案：** C. activity sequence  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 H  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 06.pdf`，第7、14页。  \n**原文摘录：** 第7页：“Sequencing activities: identifying and documenting the relationships between project activities”；第14页：“A dependency or relationship is the sequencing of project activities or tasks”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| process term | Sequencing activities | 词形替换 | 题目将过程名名词化为 activity sequence。 |\n| relationships among the project activities | relationships between project activities | 高度一致 | 核心名词和动词基本一致。 |\n\n**排除法说明：** milestone 是事件，activity attribute 是属性，schedule baseline 是批准后的进度基准，只有 activity sequence 对应活动关系排序。",
+    "knowledgePointIds": [
+      "kp_activity_sequence"
+    ],
+    "knowledgePoint": "活动排序/活动顺序",
+    "mnemonic": "relationships among activities = activity sequence。",
+    "trap": "milestone 是重大事件，不是记录活动关系的过程。"
+  },
+  {
+    "id": "Q20",
+    "num": 20,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which term is used to determine the degree to which a system performs its intended function?",
+    "options": [
+      {
+        "key": "A",
+        "text": "reliability"
+      },
+      {
+        "key": "B",
+        "text": "validity"
+      },
+      {
+        "key": "C",
+        "text": "maintainability"
+      },
+      {
+        "key": "D",
+        "text": "functionality"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "functionality",
+    "chapter": "第8章 Project Quality Management",
+    "chapterId": "CH08",
+    "chapterNo": 8,
+    "category": "1 + 4",
+    "sharedGroup": "共享选项组 E",
+    "source": "PPT/Chapter 08.pdf，第10页",
+    "sourceExcerpt": "“Functionality is the degree to which a system performs its intended function”。",
+    "explanationMd": "**答案：** D. functionality  \n**分类：** 1 + 4  \n**共享选项组：** 共享选项组 E  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 08.pdf`，第10页。  \n**原文摘录：** “Functionality is the degree to which a system performs its intended function”。  \n**一致性或同义替换说明：** 题干与课件原文一致。  \n**排除法说明：** reliability 指正常条件下按预期运行；maintainability 指维护难易；validity 不是课件此处定义的属性。",
+    "knowledgePointIds": [
+      "kp_functionality"
+    ],
+    "knowledgePoint": "功能性",
+    "mnemonic": "Functionality 看“能不能实现功能”。",
+    "trap": "reliability 看正常条件下是否稳定按预期运行。"
+  },
+  {
+    "id": "Q21",
+    "num": 21,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "What term is used to determine the ability of a product or service to perform as expected under normal conditions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "reliability"
+      },
+      {
+        "key": "B",
+        "text": "performance"
+      },
+      {
+        "key": "C",
+        "text": "maintainability"
+      },
+      {
+        "key": "D",
+        "text": "functionality"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "reliability",
+    "chapter": "第8章 Project Quality Management",
+    "chapterId": "CH08",
+    "chapterNo": 8,
+    "category": "1 + 4",
+    "sharedGroup": "共享选项组 E",
+    "source": "PPT/Chapter 08.pdf，第10页",
+    "sourceExcerpt": "“Reliability is the ability of a product or service to perform as expected under normal conditions”。",
+    "explanationMd": "**答案：** A. reliability  \n**分类：** 1 + 4  \n**共享选项组：** 共享选项组 E  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 08.pdf`，第10页。  \n**原文摘录：** “Reliability is the ability of a product or service to perform as expected under normal conditions”。  \n**一致性或同义替换说明：** 题干与课件原文一致。  \n**排除法说明：** functionality 是履行预期功能的程度，maintainability 是维护便利性；题干的 normal conditions 指向 reliability。",
+    "knowledgePointIds": [
+      "kp_reliability"
+    ],
+    "knowledgePoint": "可靠性",
+    "mnemonic": "Reliable = normal condition + expected performance。",
+    "trap": "不要与 functionality 混淆；functionality 强调功能是否具备。"
+  },
+  {
+    "id": "Q22",
+    "num": 22,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which action involves reducing the impact of a risk event by reducing the probability of its occurrence?",
+    "options": [
+      {
+        "key": "A",
+        "text": "risk avoidance"
+      },
+      {
+        "key": "B",
+        "text": "risk acceptance"
+      },
+      {
+        "key": "C",
+        "text": "risk transference"
+      },
+      {
+        "key": "D",
+        "text": "risk mitigation"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "risk mitigation",
+    "chapter": "第11章 Project Risk Management",
+    "chapterId": "CH11",
+    "chapterNo": 11,
+    "category": "3.1 + 4",
+    "sharedGroup": "共享选项组 I",
+    "source": "教材 PDF，第483页",
+    "sourceExcerpt": "“Risk mitigation or reducing the impact of a risk event by reducing the probability of its occurrence”。",
+    "explanationMd": "**答案：** D. risk mitigation  \n**分类：** 3.1 + 4  \n**共享选项组：** 共享选项组 I  \n**依据来源：** 教材；排除法。课件第53页仅列出四种 negative risk response strategies，未给出 mitigation 定义。  \n**具体出处：** 教材 PDF，第483页。  \n**原文摘录：** “Risk mitigation or reducing the impact of a risk event by reducing the probability of its occurrence”。  \n**一致性或同义替换说明：** 题干 “reducing the impact ... by reducing the probability” 与教材原文高度一致。  \n**排除法说明：** 同组选项中 transference 是转移给第三方；acceptance 是接受后果；avoidance 是消除威胁；降低概率/影响为 mitigation。",
+    "knowledgePointIds": [
+      "kp_risk_mitigation"
+    ],
+    "knowledgePoint": "风险减轻",
+    "mnemonic": "Mitigate = reduce probability/impact。",
+    "trap": "transference 是转移给第三方，acceptance 是接受，avoidance 是规避。"
+  },
+  {
+    "id": "Q23",
+    "num": 23,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "A Resource histogram is used to __________.",
+    "options": [
+      {
+        "key": "A",
+        "text": "boost employee available work time, focus on project timelines and budgets"
+      },
+      {
+        "key": "B",
+        "text": "help assign the best team for the job, and optimize how work is assigned"
+      },
+      {
+        "key": "C",
+        "text": "monitor the project and track its progress"
+      },
+      {
+        "key": "D",
+        "text": "resolve resource conflicts by delaying tasks"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "monitoring the project and track its progress",
+    "chapter": "第9章 Project Human Resource Management",
+    "chapterId": "CH09",
+    "chapterNo": 9,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 D",
+    "source": "PPT/Chapter 9.pdf，第35页",
+    "sourceExcerpt": "“A resource histogram is a column chart that shows the number of resources assigned to a project over time”。",
+    "explanationMd": "**答案：** C. monitoring the project and track its progress  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 D  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 9.pdf`，第35页。  \n**原文摘录：** “A resource histogram is a column chart that shows the number of resources assigned to a project over time”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| monitor the project and track its progress | shows resources assigned ... over time | 功能概括 | 资源直方图通过时间维度显示资源分配，可用于跟踪资源使用状态。 |\n\n**排除法说明：** 同组选项中 D 已是 resource leveling；B 对应 resource allocation；A 与 resource histogram 定义不符。",
+    "knowledgePointIds": [
+      "kp_resource_histogram"
+    ],
+    "knowledgePoint": "资源直方图",
+    "mnemonic": "Histogram = bar over time。",
+    "trap": "不是分配最佳团队，也不是通过延迟任务解决冲突。"
+  },
+  {
+    "id": "Q24",
+    "num": 24,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "In project time/schedule management, which process involves determining the total elapsed time for the work to be done, plus any associated waiting time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "estimating activity durations"
+      },
+      {
+        "key": "B",
+        "text": "developing the schedule"
+      },
+      {
+        "key": "C",
+        "text": "controlling the schedule"
+      },
+      {
+        "key": "D",
+        "text": "estimating activity resources"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "estimating activity durations",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 06.pdf，第7、24页",
+    "sourceExcerpt": "第7页：“Estimating activity durations: estimating the number of work periods that are needed to complete individual activities”；第24页：“Duration includes the actual amount of time worked on an activity plus elapsed time”。",
+    "explanationMd": "**答案：** A. estimating activity durations  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 06.pdf`，第7、24页。  \n**原文摘录：** 第7页：“Estimating activity durations: estimating the number of work periods that are needed to complete individual activities”；第24页：“Duration includes the actual amount of time worked on an activity plus elapsed time”。  \n**一致性或同义替换说明：** 题干中的 “total elapsed time ... plus waiting time” 对应 duration；过程名称与 A 选项一致。",
+    "knowledgePointIds": [
+      "kp_estimate_durations"
+    ],
+    "knowledgePoint": "估算活动持续时间",
+    "mnemonic": "Duration = elapsed time + waiting time。",
+    "trap": "develop schedule 是综合分析后形成进度计划。"
+  },
+  {
+    "id": "Q25",
+    "num": 25,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "__________ is a Logical Relationship in which a Successor Activity cannot start until a Predecessor Activity has started.",
+    "options": [
+      {
+        "key": "A",
+        "text": "start-to-start"
+      },
+      {
+        "key": "B",
+        "text": "finish-to-start"
+      },
+      {
+        "key": "C",
+        "text": "finish-to-finish"
+      },
+      {
+        "key": "D",
+        "text": "start-to-finish"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "start-to-start",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 06.pdf，第21页",
+    "sourceExcerpt": "“Start-to-start (SS) ... Task (B) cannot start until task (A) starts”。",
+    "explanationMd": "**答案：** A. start-to-start  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件图表。  \n**具体出处：** `PPT/Chapter 06.pdf`，第21页，Figure 6-3 “Task Dependency Types”。  \n**原文摘录：** “Start-to-start (SS) ... Task (B) cannot start until task (A) starts”。  \n**一致性或同义替换说明：** 题干 “Successor Activity cannot start until a Predecessor Activity has started” 与图表描述一致。",
+    "knowledgePointIds": [
+      "kp_start_to_start"
+    ],
+    "knowledgePoint": "开始-开始关系 SS",
+    "mnemonic": "SS：start waits for start。",
+    "trap": "finish-to-start 是后续开始等前置完成。"
+  },
+  {
+    "id": "Q26",
+    "num": 26,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "A(n) __________ is a tool used for assisting in the planning and scheduling of projects of all sizes.",
+    "options": [
+      {
+        "key": "A",
+        "text": "requirements traceability matrix"
+      },
+      {
+        "key": "B",
+        "text": "Gantt chart"
+      },
+      {
+        "key": "C",
+        "text": "power/interest grid"
+      },
+      {
+        "key": "D",
+        "text": "issue log"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "Gantt chart",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 A",
+    "source": "PPT/Chapter 06.pdf，第27页",
+    "sourceExcerpt": "“Gantt charts provide a standard format for displaying project schedule information by listing project activities and their corresponding start and finish dates”。",
+    "explanationMd": "**答案：** B. Gantt chart  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 A  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 06.pdf`，第27页。  \n**原文摘录：** “Gantt charts provide a standard format for displaying project schedule information by listing project activities and their corresponding start and finish dates”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| assisting in the planning and scheduling of projects | displaying project schedule information | 同义概括 | Gantt chart 用于展示进度活动、开始和完成日期，是计划和排程常用工具。 |\n\n**排除法说明：** RTM、power/interest grid、issue log 分别属于需求、干系人、问题管理，不是项目计划排程图。",
+    "knowledgePointIds": [
+      "kp_gantt_chart"
+    ],
+    "knowledgePoint": "甘特图",
+    "mnemonic": "Gantt = 条形进度图。",
+    "trap": "与网络图不同，Gantt 强调时间条和排程展示。"
+  },
+  {
+    "id": "Q27",
+    "num": 27,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "The critical path is the longest path through a network diagram, and it represents the shortest amount of __________.",
+    "options": [
+      {
+        "key": "A",
+        "text": "time"
+      },
+      {
+        "key": "B",
+        "text": "resources"
+      },
+      {
+        "key": "C",
+        "text": "slack"
+      },
+      {
+        "key": "D",
+        "text": "activity"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "time",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 06.pdf，第34页",
+    "sourceExcerpt": "“A critical path ... determines the earliest time by which the project can be completed”；“The critical path is the longest path through the network diagram”。",
+    "explanationMd": "**答案：** A. time  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 06.pdf`，第34页。  \n**原文摘录：** “A critical path ... determines the earliest time by which the project can be completed”；“The critical path is the longest path through the network diagram”。  \n**一致性或同义替换说明：** 题干前半句与课件一致，后半句 “shortest amount of time” 对应 “earliest time ... completed”。",
+    "knowledgePointIds": [
+      "kp_critical_path_time"
+    ],
+    "knowledgePoint": "关键路径代表最短完成时间",
+    "mnemonic": "路径最长，工期最短可完成时间。",
+    "trap": "关键路径只考虑 time，不是 resources/slack/activity。"
+  },
+  {
+    "id": "Q28",
+    "num": 28,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "A project __________ visualizes the sequential and logical relationship between tasks in a project setting.",
+    "options": [
+      {
+        "key": "A",
+        "text": "risk register"
+      },
+      {
+        "key": "B",
+        "text": "work break down structure"
+      },
+      {
+        "key": "C",
+        "text": "milestone"
+      },
+      {
+        "key": "D",
+        "text": "schedule network diagram"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "schedule network diagram",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 G",
+    "source": "PPT/Chapter 06.pdf，第16页",
+    "sourceExcerpt": "“A network diagram is a schematic display of the logical relationships among, or sequencing of, project activities”。",
+    "explanationMd": "**答案：** D. schedule network diagram  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 G  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 06.pdf`，第16页。  \n**原文摘录：** “A network diagram is a schematic display of the logical relationships among, or sequencing of, project activities”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| visualizes the sequential and logical relationship between tasks | schematic display of the logical relationships ... sequencing of project activities | 同义替换 | visualizes 对应 schematic display；tasks 对应 project activities。 |\n\n**排除法说明：** milestone 是节点，WBS 是范围分解，risk register 是风险文件；只有 schedule network diagram 展示活动逻辑关系。",
+    "knowledgePointIds": [
+      "kp_schedule_network_diagram"
+    ],
+    "knowledgePoint": "进度网络图",
+    "mnemonic": "Network diagram = logical/sequential relationships。",
+    "trap": "milestone 是点，WBS 是范围分解，risk register 是风险文件。"
+  },
+  {
+    "id": "Q29",
+    "num": 29,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following is true of program managers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "They report to project managers who represent the next level in the hierarchy."
+      },
+      {
+        "key": "B",
+        "text": "They recognize that managing a program is simpler than managing a project."
+      },
+      {
+        "key": "C",
+        "text": "They provide leadership and direction for project managers heading the projects within a program."
+      },
+      {
+        "key": "D",
+        "text": "They are responsible solely for the delivery of project results."
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "They provide leadership and direction for project managers heading the projects within a program.",
+    "chapter": "第1章 Introduction to Project Management",
+    "chapterId": "CH01",
+    "chapterNo": 1,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 1.pdf，第26页",
+    "sourceExcerpt": "“A program manager provides leadership and direction for the project managers heading the projects within the program”。",
+    "explanationMd": "**答案：** C. They provide leadership and direction for project managers heading the projects within a program.  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 1.pdf`，第26页。  \n**原文摘录：** “A program manager provides leadership and direction for the project managers heading the projects within the program”。  \n**一致性或同义替换说明：** C 选项与课件原文高度一致。",
+    "knowledgePointIds": [
+      "kp_program_manager"
+    ],
+    "knowledgePoint": "项目集经理角色",
+    "mnemonic": "Program manager manages project managers。",
+    "trap": "项目集管理通常比单项目更复杂，不是向项目经理汇报。"
+  },
+  {
+    "id": "Q30",
+    "num": 30,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following is the true objective of the project risk management knowledge area?",
+    "options": [
+      {
+        "key": "A",
+        "text": "to ensure the project includes only the work required, for completing the project successfully"
+      },
+      {
+        "key": "B",
+        "text": "to ensure smooth flow of information from either between two people or a group"
+      },
+      {
+        "key": "C",
+        "text": "increase the probability and/or impact of the opportunities and decrease the probability and/or impact of the threats"
+      },
+      {
+        "key": "D",
+        "text": "Describe the end-to-end supplier process that the project will use to acquire its goods and services"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "increase the probability and/or impact of the opportunities and decrease the probability and/or impact of the threats",
+    "chapter": "第11章 Project Risk Management",
+    "chapterId": "CH11",
+    "chapterNo": 11,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 B",
+    "source": "PPT/Chapter 11.pdf，第10页",
+    "sourceExcerpt": "“The goal of project risk management is to minimize potential negative risks while maximizing potential positive risks”。",
+    "explanationMd": "**答案：** C. increase the probability and/or impact of the opportunities and decrease the probability and/or impact of the threats  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 B  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 11.pdf`，第10页。  \n**原文摘录：** “The goal of project risk management is to minimize potential negative risks while maximizing potential positive risks”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| increase opportunities / decrease threats | maximizing positive risks / minimize negative risks | 同义替换 | opportunities 即 positive risks；threats 即 negative risks。 |\n\n**排除法说明：** 共享选项组 B 中，C 是风险管理目标；A、B、D 分别对应范围、沟通、采购。",
+    "knowledgePointIds": [
+      "kp_risk_management_objective"
+    ],
+    "knowledgePoint": "风险管理目标",
+    "mnemonic": "机会↑，威胁↓。",
+    "trap": "风险管理同时处理正面风险和负面风险。"
+  },
+  {
+    "id": "Q31",
+    "num": 31,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "How are 'revenues minus expenditures' best defined?",
+    "options": [
+      {
+        "key": "A",
+        "text": "capital"
+      },
+      {
+        "key": "B",
+        "text": "profits"
+      },
+      {
+        "key": "C",
+        "text": "costs"
+      },
+      {
+        "key": "D",
+        "text": "accounting"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "profits",
+    "chapter": "第7章 Project Cost Management",
+    "chapterId": "CH07",
+    "chapterNo": 7,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 07.pdf，第9页",
+    "sourceExcerpt": "“Profits are revenues minus expenditures”。",
+    "explanationMd": "**答案：** B. profits  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 07.pdf`，第9页。  \n**原文摘录：** “Profits are revenues minus expenditures”。  \n**一致性或同义替换说明：** 题干中的 revenues minus expenditures 与课件原文一致。",
+    "knowledgePointIds": [
+      "kp_profits"
+    ],
+    "knowledgePoint": "利润",
+    "mnemonic": "profit = revenue - expenditure。",
+    "trap": "不要把 revenue 本身当 profit。"
+  },
+  {
+    "id": "Q32",
+    "num": 32,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following is the true objective of the project scope management knowledge area?",
+    "options": [
+      {
+        "key": "A",
+        "text": "to ensure the project includes only the work required, for completing the project successfully"
+      },
+      {
+        "key": "B",
+        "text": "to ensure smooth flow of information from either between two people or a group"
+      },
+      {
+        "key": "C",
+        "text": "increase the probability and/or impact of the opportunities and decrease the probability and/or impact of the threats"
+      },
+      {
+        "key": "D",
+        "text": "Describe the end-to-end supplier process that the project will use to acquire its goods and services"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "to ensure the project includes only the work required, for completing the project successfully",
+    "chapter": "第5章 Project Scope Management",
+    "chapterId": "CH05",
+    "chapterNo": 5,
+    "category": "1 + 4",
+    "sharedGroup": "共享选项组 B",
+    "source": "PPT/Chapter 05.pdf，第42页",
+    "sourceExcerpt": "“Project scope management includes the processes required to ensure that the project addresses all the work required, and only the work required, to complete the project successfully”。",
+    "explanationMd": "**答案：** A. to ensure the project includes only the work required, for completing the project successfully  \n**分类：** 1 + 4  \n**共享选项组：** 共享选项组 B  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 05.pdf`，第42页。  \n**原文摘录：** “Project scope management includes the processes required to ensure that the project addresses all the work required, and only the work required, to complete the project successfully”。  \n**一致性或同义替换说明：** A 选项与课件原文高度一致。  \n**排除法说明：** 共享选项组 B 中，A 是范围管理，B 是沟通管理，C 是风险管理，D 是采购管理。题干问 scope management，故选 A。",
+    "knowledgePointIds": [
+      "kp_scope_management_objective"
+    ],
+    "knowledgePoint": "范围管理目标",
+    "mnemonic": "all the work required, and only the work required。",
+    "trap": "只做所需工作是 scope 关键词。"
+  },
+  {
+    "id": "Q33",
+    "num": 33,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "__________ is an estimate of the value of the physical work actually completed.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Planned cost"
+      },
+      {
+        "key": "B",
+        "text": "Cost estimate"
+      },
+      {
+        "key": "C",
+        "text": "Planned value"
+      },
+      {
+        "key": "D",
+        "text": "Earned value"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "Earned value",
+    "chapter": "第7章 Project Cost Management",
+    "chapterId": "CH07",
+    "chapterNo": 7,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 07.pdf，第31页",
+    "sourceExcerpt": "“The earned value (EV) ... is an estimate of the value of the physical work actually completed”。",
+    "explanationMd": "**答案：** D. Earned value  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 07.pdf`，第31页。  \n**原文摘录：** “The earned value (EV) ... is an estimate of the value of the physical work actually completed”。  \n**一致性或同义替换说明：** 题干与课件原文一致。",
+    "knowledgePointIds": [
+      "kp_earned_value"
+    ],
+    "knowledgePoint": "挣值 EV",
+    "mnemonic": "EV = value of work actually completed。",
+    "trap": "不是预算总额，也不是实际成本。"
+  },
+  {
+    "id": "Q34",
+    "num": 34,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which process involves building individual and group skills to enhance project performance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "developing the human resource plan"
+      },
+      {
+        "key": "B",
+        "text": "developing the project team"
+      },
+      {
+        "key": "C",
+        "text": "acquiring the project team"
+      },
+      {
+        "key": "D",
+        "text": "managing the project team"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "developing the project team",
+    "chapter": "第9章 Project Human Resource Management",
+    "chapterId": "CH09",
+    "chapterNo": 9,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 9.pdf，第9页",
+    "sourceExcerpt": "“Developing the project team: building individual and group skills to enhance project performance”。",
+    "explanationMd": "**答案：** B. developing the project team  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 9.pdf`，第9页。  \n**原文摘录：** “Developing the project team: building individual and group skills to enhance project performance”。  \n**一致性或同义替换说明：** 题干与课件原文一致。",
+    "knowledgePointIds": [
+      "kp_develop_project_team"
+    ],
+    "knowledgePoint": "建设项目团队",
+    "mnemonic": "Develop team = build skills。",
+    "trap": "acquire team 是获得人员，manage team 是跟踪和解决问题。"
+  },
+  {
+    "id": "Q35",
+    "num": 35,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Outsourcing suppliers can often provide economies of scale, especially for hardware and software, that may not be available to the client alone. Which benefit does this offer an organization?",
+    "options": [
+      {
+        "key": "A",
+        "text": "reduction in costs"
+      },
+      {
+        "key": "B",
+        "text": "increased flexibility"
+      },
+      {
+        "key": "C",
+        "text": "increased accountability"
+      },
+      {
+        "key": "D",
+        "text": "access to specific skills"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "reduction in costs",
+    "chapter": "第12章 Project Procurement Management",
+    "chapterId": "CH12",
+    "chapterNo": 12,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 12.pdf，第9页",
+    "sourceExcerpt": "课件列出 outsourcing 的好处：“To reduce both fixed and recurrent costs”。",
+    "explanationMd": "**答案：** A. reduction in costs  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 12.pdf`，第9页。  \n**原文摘录：** 课件列出 outsourcing 的好处：“To reduce both fixed and recurrent costs”。  \n**一致性或同义替换说明：** A 的 reduction in costs 与课件 “reduce ... costs” 一致。",
+    "knowledgePointIds": [
+      "kp_outsourcing_cost_reduction"
+    ],
+    "knowledgePoint": "外包优势：降低成本",
+    "mnemonic": "Economies of scale = cost reduction。",
+    "trap": "题干说 economies of scale 时通常指成本降低。"
+  },
+  {
+    "id": "Q36",
+    "num": 36,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "What process involves identifying and controlling the functional and physical design characteristics of products and their support documentation, and ensures that the descriptions of the project's products are correct and complete?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Configuration management"
+      },
+      {
+        "key": "B",
+        "text": "NPV analysis"
+      },
+      {
+        "key": "C",
+        "text": "Change Management"
+      },
+      {
+        "key": "D",
+        "text": "Project time management"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "Configuration management",
+    "chapter": "第4章 Project Integration Management",
+    "chapterId": "CH04",
+    "chapterNo": 4,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 04.pdf，第49页",
+    "sourceExcerpt": "“Configuration management ensures that the descriptions of the project’s products are correct and complete”；“Involves identifying and controlling the functional and physical design characteristics of products and their support documentation”。",
+    "explanationMd": "**答案：** A. Configuration management  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 04.pdf`，第49页。  \n**原文摘录：** “Configuration management ensures that the descriptions of the project’s products are correct and complete”；“Involves identifying and controlling the functional and physical design characteristics of products and their support documentation”。  \n**一致性或同义替换说明：** 题干与课件两句原文高度一致。",
+    "knowledgePointIds": [
+      "kp_configuration_management"
+    ],
+    "knowledgePoint": "配置管理",
+    "mnemonic": "Configuration = identify + control characteristics。",
+    "trap": "不是普通 change control；它更关注产品配置项和文档一致性。"
+  },
+  {
+    "id": "Q37",
+    "num": 37,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "__________ is \"the selection, prioritization and control of an organization's programmes and projects, in line with its strategic objectives and capacity to deliver\".",
+    "options": [
+      {
+        "key": "A",
+        "text": "Scope Management"
+      },
+      {
+        "key": "B",
+        "text": "Procurement Management"
+      },
+      {
+        "key": "C",
+        "text": "Project Management"
+      },
+      {
+        "key": "D",
+        "text": "Portfolio Management"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "Portfolio Management",
+    "chapter": "第1章 Introduction to Project Management",
+    "chapterId": "CH01",
+    "chapterNo": 1,
+    "category": "2",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 1.pdf，第27页",
+    "sourceExcerpt": "“As part of project portfolio management, organizations group and manage projects and programs as a portfolio of investments that contribute to the entire enterprise’s success”；“Portfolio managers ... select and analyze projects from a strategic perspective”。",
+    "explanationMd": "**答案：** D. Portfolio Management  \n**分类：** 2  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 1.pdf`，第27页。  \n**原文摘录：** “As part of project portfolio management, organizations group and manage projects and programs as a portfolio of investments that contribute to the entire enterprise’s success”；“Portfolio managers ... select and analyze projects from a strategic perspective”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| selection, prioritization and control of programmes and projects | group and manage projects and programs；select and analyze projects | 同义概括 | 题干是 portfolio management 的标准化定义，课件用“组合管理、从战略角度选择和分析项目”表达同一概念。 |\n| in line with strategic objectives | from a strategic perspective | 同义替换 | 二者都强调项目组合与战略一致。 |",
+    "knowledgePointIds": [
+      "kp_portfolio_management"
+    ],
+    "knowledgePoint": "项目组合管理",
+    "mnemonic": "Portfolio = strategic selection/prioritization。",
+    "trap": "portfolio 管战略投资组合，program 管相关项目群。"
+  },
+  {
+    "id": "Q38",
+    "num": 38,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Resource levelling is used for __________.",
+    "options": [
+      {
+        "key": "A",
+        "text": "boosting employee available work time, focusing on project timelines and budgets"
+      },
+      {
+        "key": "B",
+        "text": "helping assign the best team for the job, and optimize how work is assigned"
+      },
+      {
+        "key": "C",
+        "text": "monitoring the project and track its progress"
+      },
+      {
+        "key": "D",
+        "text": "resolving resource conflicts by delaying tasks"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "resolving resource conflicts by delaying tasks",
+    "chapter": "第9章 Project Human Resource Management",
+    "chapterId": "CH09",
+    "chapterNo": 9,
+    "category": "1 + 4",
+    "sharedGroup": "共享选项组 D",
+    "source": "PPT/Chapter 9.pdf，第42页",
+    "sourceExcerpt": "“Resource leveling is a technique for resolving resource conflicts by delaying tasks”。",
+    "explanationMd": "**答案：** D. resolving resource conflicts by delaying tasks  \n**分类：** 1 + 4  \n**共享选项组：** 共享选项组 D  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 9.pdf`，第42页。  \n**原文摘录：** “Resource leveling is a technique for resolving resource conflicts by delaying tasks”。  \n**一致性或同义替换说明：** D 选项与课件原文一致。  \n**排除法说明：** resource leveling 的定义已直接出现；resource histogram 和 resource allocation 不能选择。",
+    "knowledgePointIds": [
+      "kp_resource_leveling"
+    ],
+    "knowledgePoint": "资源平衡",
+    "mnemonic": "Leveling = delay tasks to resolve conflicts。",
+    "trap": "allocation 是分配，histogram 是展示/跟踪。"
+  },
+  {
+    "id": "Q39",
+    "num": 39,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "In a __________ organizational structure, teams report to multiple leaders.",
+    "options": [
+      {
+        "key": "A",
+        "text": "project"
+      },
+      {
+        "key": "B",
+        "text": "symbolic"
+      },
+      {
+        "key": "C",
+        "text": "matrix"
+      },
+      {
+        "key": "D",
+        "text": "functional"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "matrix",
+    "chapter": "第2章 The Project Management and Information Technology Context",
+    "chapterId": "CH02",
+    "chapterNo": 2,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 2.pdf，第9页",
+    "sourceExcerpt": "“Matrix: ... personnel often report to two or more bosses”。",
+    "explanationMd": "**答案：** C. matrix  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 2.pdf`，第9页。  \n**原文摘录：** “Matrix: ... personnel often report to two or more bosses”。  \n**一致性或同义替换说明：** “report to multiple leaders” 与 “report to two or more bosses” 高度一致。",
+    "knowledgePointIds": [
+      "kp_matrix_org"
+    ],
+    "knowledgePoint": "矩阵型组织结构",
+    "mnemonic": "Matrix = multiple bosses。",
+    "trap": "只要题中 multiple leaders/bosses，优先选 matrix。"
+  },
+  {
+    "id": "Q40",
+    "num": 40,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "__________ tests are performed to know if a complete build aligns with functional and non-functional requirements made for it.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Integration"
+      },
+      {
+        "key": "B",
+        "text": "Unit"
+      },
+      {
+        "key": "C",
+        "text": "User acceptance"
+      },
+      {
+        "key": "D",
+        "text": "System"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "System",
+    "chapter": "第8章 Project Quality Management",
+    "chapterId": "CH08",
+    "chapterNo": 8,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 F",
+    "source": "PPT/Chapter 08.pdf，第48页",
+    "sourceExcerpt": "“System testing tests the entire system as one entity”。",
+    "explanationMd": "**答案：** D. System  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 F  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 08.pdf`，第48页。  \n**原文摘录：** “System testing tests the entire system as one entity”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| complete build aligns with functional and non-functional requirements | entire system as one entity | 同义概括 | 完整构建/完整系统对应 system testing 的测试对象。 |\n\n**排除法说明：** integration 测组合组件，unit 测单个组件，user acceptance 由最终用户验收；完整构建整体测试对应 system。",
+    "knowledgePointIds": [
+      "kp_system_testing"
+    ],
+    "knowledgePoint": "系统测试",
+    "mnemonic": "System = entire system as one entity。",
+    "trap": "integration testing 是多个单元组合后测试。"
+  },
+  {
+    "id": "Q41",
+    "num": 41,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which term is used to measure of how well your product does what you intend?",
+    "options": [
+      {
+        "key": "A",
+        "text": "conformance to requirements"
+      },
+      {
+        "key": "B",
+        "text": "fitness for use"
+      },
+      {
+        "key": "C",
+        "text": "critical chain scheduling"
+      },
+      {
+        "key": "D",
+        "text": "free slack"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "fitness for use",
+    "chapter": "第8章 Project Quality Management",
+    "chapterId": "CH08",
+    "chapterNo": 8,
+    "category": "2",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 08.pdf，第6页",
+    "sourceExcerpt": "“Fitness for use: A product can be used as it was intended”。",
+    "explanationMd": "**答案：** B. fitness for use  \n**分类：** 2  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 08.pdf`，第6页。  \n**原文摘录：** “Fitness for use: A product can be used as it was intended”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| how well your product does what you intend | product can be used as it was intended | 同义替换 | 都强调产品是否按预期用途发挥作用。 |",
+    "knowledgePointIds": [
+      "kp_fitness_for_use"
+    ],
+    "knowledgePoint": "适用性",
+    "mnemonic": "Fitness for use = used as intended。",
+    "trap": "它是质量的核心定义之一，不是单纯 performance。"
+  },
+  {
+    "id": "Q42",
+    "num": 42,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following is the true objective of the project communications management knowledge area?",
+    "options": [
+      {
+        "key": "A",
+        "text": "to ensure the project includes only the work required, for completing the project successfully"
+      },
+      {
+        "key": "B",
+        "text": "to ensure smooth flow of information from either between two people or a group"
+      },
+      {
+        "key": "C",
+        "text": "increase the probability and/or impact of the opportunities and decrease the probability and/or impact of the threats"
+      },
+      {
+        "key": "D",
+        "text": "Describe the end-to-end supplier process that the project will use to acquire its goods and services"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "to ensure smooth flow of information from either between two people or a group",
+    "chapter": "第10章 Project Communications Management",
+    "chapterId": "CH10",
+    "chapterNo": 10,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 B",
+    "source": "PPT/Chapter 10.pdf，第46页",
+    "sourceExcerpt": "“The goal of project communications management is to ensure timely and appropriate generation, collection, dissemination, storage, and disposition of project information”。",
+    "explanationMd": "**答案：** B. to ensure smooth flow of information from either between two people or a group  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 B  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 10.pdf`，第46页。  \n**原文摘录：** “The goal of project communications management is to ensure timely and appropriate generation, collection, dissemination, storage, and disposition of project information”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| smooth flow of information | timely and appropriate generation, collection, dissemination... | 同义概括 | 题干用“信息顺畅流动”概括课件的信息生成、收集、传播等过程。 |\n\n**排除法说明：** 共享选项组 B 中，B 对应 communications；A、C、D 分别对应 scope、risk、procurement。",
+    "knowledgePointIds": [
+      "kp_communications_objective"
+    ],
+    "knowledgePoint": "沟通管理目标",
+    "mnemonic": "Communications = smooth flow of information。",
+    "trap": "范围、风险、采购都有各自目标，题干有 information flow 选 communications。"
+  },
+  {
+    "id": "Q43",
+    "num": 43,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which document contains a deliverable-oriented grouping of the work involved in a project that defines the total scope of the project?",
+    "options": [
+      {
+        "key": "A",
+        "text": "project charter"
+      },
+      {
+        "key": "B",
+        "text": "business case"
+      },
+      {
+        "key": "C",
+        "text": "project scope statement"
+      },
+      {
+        "key": "D",
+        "text": "work breakdown structure"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "work breakdown structure",
+    "chapter": "第5章 Project Scope Management",
+    "chapterId": "CH05",
+    "chapterNo": 5,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 05.pdf，第21页",
+    "sourceExcerpt": "“A WBS is a deliverable-oriented grouping of the work involved in a project that defines the total scope of the project”。",
+    "explanationMd": "**答案：** D. work breakdown structure  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 05.pdf`，第21页。  \n**原文摘录：** “A WBS is a deliverable-oriented grouping of the work involved in a project that defines the total scope of the project”。  \n**一致性或同义替换说明：** 题干与课件原文一致，WBS 即 work breakdown structure。",
+    "knowledgePointIds": [
+      "kp_wbs"
+    ],
+    "knowledgePoint": "工作分解结构 WBS",
+    "mnemonic": "WBS = deliverable-oriented grouping。",
+    "trap": "WBS 是范围分解，不是进度网络图。"
+  },
+  {
+    "id": "Q44",
+    "num": 44,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which process involves documenting how risk is assessed and who is responsible for doing it?",
+    "options": [
+      {
+        "key": "A",
+        "text": "identifying risks"
+      },
+      {
+        "key": "B",
+        "text": "planning risk management"
+      },
+      {
+        "key": "C",
+        "text": "performing qualitative risk analysis"
+      },
+      {
+        "key": "D",
+        "text": "performing quantitative risk analysis"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "planning risk management",
+    "chapter": "第11章 Project Risk Management",
+    "chapterId": "CH11",
+    "chapterNo": 11,
+    "category": "2",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 11.pdf，第14、17、18页",
+    "sourceExcerpt": "第14页：“Planning risk management: Deciding how to approach and plan the risk management activities”；第17页：“risk management plan ... documents the procedures for managing risk”；第18页列出 “Roles and responsibilities”“Risk probability and impact”。",
+    "explanationMd": "**答案：** B. planning risk management  \n**分类：** 2  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 11.pdf`，第14、17、18页。  \n**原文摘录：** 第14页：“Planning risk management: Deciding how to approach and plan the risk management activities”；第17页：“risk management plan ... documents the procedures for managing risk”；第18页列出 “Roles and responsibilities”“Risk probability and impact”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| how risk is assessed | Risk probability and impact | 同义概括 | 风险评估涉及概率和影响。 |\n| who is responsible for doing it | Roles and responsibilities | 同义替换 | 责任归属是风险管理计划内容。 |",
+    "knowledgePointIds": [
+      "kp_planning_risk_management"
+    ],
+    "knowledgePoint": "规划风险管理",
+    "mnemonic": "Plan risk = document how and who。",
+    "trap": "qualitative/quantitative 是后续分析风险。"
+  },
+  {
+    "id": "Q45",
+    "num": 45,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which process involves numerically analysing the effect of identified risks on overall project objectives?",
+    "options": [
+      {
+        "key": "A",
+        "text": "performing qualitative risk analysis"
+      },
+      {
+        "key": "B",
+        "text": "identifying risks"
+      },
+      {
+        "key": "C",
+        "text": "planning risk responses"
+      },
+      {
+        "key": "D",
+        "text": "performing quantitative risk analysis"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "performing quantitative risk analysis",
+    "chapter": "第11章 Project Risk Management",
+    "chapterId": "CH11",
+    "chapterNo": 11,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 11.pdf，第15页",
+    "sourceExcerpt": "“Performing quantitative risk analysis: Numerically estimating the effects of risks on project objectives”。",
+    "explanationMd": "**答案：** D. performing quantitative risk analysis  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 11.pdf`，第15页。  \n**原文摘录：** “Performing quantitative risk analysis: Numerically estimating the effects of risks on project objectives”。  \n**一致性或同义替换说明：** 题干与课件原文高度一致。",
+    "knowledgePointIds": [
+      "kp_quantitative_risk_analysis"
+    ],
+    "knowledgePoint": "实施定量风险分析",
+    "mnemonic": "Quantitative = numerically analyzing。",
+    "trap": "qualitative 是按概率/影响等进行优先级排序。"
+  },
+  {
+    "id": "Q46",
+    "num": 46,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following is the true objective of the project procurement management knowledge area?",
+    "options": [
+      {
+        "key": "A",
+        "text": "to ensure the project includes only the work required, for completing the project successfully"
+      },
+      {
+        "key": "B",
+        "text": "to ensure smooth flow of information from either between two people or a group"
+      },
+      {
+        "key": "C",
+        "text": "increase the probability and/or impact of the opportunities and decrease the probability and/or impact of the threats"
+      },
+      {
+        "key": "D",
+        "text": "Describe the end-to-end supplier process that the project will use to acquire its goods and services"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "Describe the end-to-end supplier process that the project will use to acquire its goods and services",
+    "chapter": "第12章 Project Procurement Management",
+    "chapterId": "CH12",
+    "chapterNo": 12,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 B",
+    "source": "PPT/Chapter 12.pdf，第12页",
+    "sourceExcerpt": "“Project procurement management: Acquiring goods and services for a project from outside the performing organization”。",
+    "explanationMd": "**答案：** D. Describe the end-to-end supplier process that the project will use to acquire its goods and services  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 B  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 12.pdf`，第12页。  \n**原文摘录：** “Project procurement management: Acquiring goods and services for a project from outside the performing organization”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| end-to-end supplier process | acquiring goods and services from outside the performing organization | 同义概括 | supplier process 是采购外部商品和服务的过程化表述。 |\n\n**排除法说明：** 共享选项组 B 中，A、B、C 已分别对应 scope、communications、risk；题干问 procurement，故选 D。",
+    "knowledgePointIds": [
+      "kp_procurement_objective"
+    ],
+    "knowledgePoint": "采购管理目标",
+    "mnemonic": "Procurement = acquiring goods/services from outside。",
+    "trap": "supplier / acquire goods and services 是采购关键词。"
+  },
+  {
+    "id": "Q47",
+    "num": 47,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which process helps develop an accurate projection of a project's financial expenses and benefits?",
+    "options": [
+      {
+        "key": "A",
+        "text": "critical path analysis"
+      },
+      {
+        "key": "B",
+        "text": "fast tracking"
+      },
+      {
+        "key": "C",
+        "text": "life cycle costing"
+      },
+      {
+        "key": "D",
+        "text": "crashing"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "life cycle costing",
+    "chapter": "第7章 Project Cost Management",
+    "chapterId": "CH07",
+    "chapterNo": 7,
+    "category": "2",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 07.pdf，第9页",
+    "sourceExcerpt": "“Life cycle costing considers the total cost of ownership, or development plus support costs, for a project”；同页还列出 “Cash flow analysis determines the estimated annual costs and benefits”。",
+    "explanationMd": "**答案：** C. life cycle costing  \n**分类：** 2  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 07.pdf`，第9页。  \n**原文摘录：** “Life cycle costing considers the total cost of ownership, or development plus support costs, for a project”；同页还列出 “Cash flow analysis determines the estimated annual costs and benefits”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| projection of a project's financial expenses and benefits | total cost of ownership；estimated annual costs and benefits | 同义概括 | 选项中只有 life cycle costing 属于财务成本/收益预测相关方法。 |",
+    "knowledgePointIds": [
+      "kp_life_cycle_costing"
+    ],
+    "knowledgePoint": "生命周期成本法",
+    "mnemonic": "Life cycle = development + support。",
+    "trap": "不要只看初始采购或开发成本。"
+  },
+  {
+    "id": "Q48",
+    "num": 48,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "__________ involves shifting of the consequence and impact of the risk to a third party.",
+    "options": [
+      {
+        "key": "A",
+        "text": "risk avoidance"
+      },
+      {
+        "key": "B",
+        "text": "risk acceptance"
+      },
+      {
+        "key": "C",
+        "text": "risk transference"
+      },
+      {
+        "key": "D",
+        "text": "risk mitigation"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "risk transference",
+    "chapter": "第11章 Project Risk Management",
+    "chapterId": "CH11",
+    "chapterNo": 11,
+    "category": "3.1 + 4",
+    "sharedGroup": "共享选项组 I",
+    "source": "教材 PDF，第483页",
+    "sourceExcerpt": "“Risk transference or shifting the consequence of a risk and responsibility for its management to a third party”。",
+    "explanationMd": "**答案：** C. risk transference  \n**分类：** 3.1 + 4  \n**共享选项组：** 共享选项组 I  \n**依据来源：** 教材；排除法。课件第53页只列策略名称，未给出 transference 定义。  \n**具体出处：** 教材 PDF，第483页。  \n**原文摘录：** “Risk transference or shifting the consequence of a risk and responsibility for its management to a third party”。  \n**一致性或同义替换说明：** 题干 “shifting ... consequence and impact ... to a third party” 与教材原文高度一致。  \n**排除法说明：** 同组选项中 mitigation 是降低概率/影响；acceptance 是接受后果；avoidance 是消除风险原因；转移给第三方为 transference。",
+    "knowledgePointIds": [
+      "kp_risk_transference"
+    ],
+    "knowledgePoint": "风险转移",
+    "mnemonic": "Transfer = third party。",
+    "trap": "mitigation 是降低概率/影响，不是转给别人。"
+  },
+  {
+    "id": "Q49",
+    "num": 49,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "__________ is a risk response strategy whereby the project team acts to ensure that an opportunity occurs.",
+    "options": [
+      {
+        "key": "A",
+        "text": "risk enhancement"
+      },
+      {
+        "key": "B",
+        "text": "risk acceptance"
+      },
+      {
+        "key": "C",
+        "text": "risk sharing"
+      },
+      {
+        "key": "D",
+        "text": "risk exploitation"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "risk exploitation",
+    "chapter": "第11章 Project Risk Management",
+    "chapterId": "CH11",
+    "chapterNo": 11,
+    "category": "3.2",
+    "sharedGroup": "无",
+    "source": "教材 PDF，第483页",
+    "sourceExcerpt": "“Risk exploitation or doing whatever you can to make sure the positive risk happens”。",
+    "explanationMd": "**答案：** D. risk exploitation  \n**分类：** 3.2  \n**共享选项组：** 无  \n**依据来源：** 教材。课件第55页只列出正面风险策略名称，未给出 exploitation 定义。  \n**具体出处：** 教材 PDF，第483页。  \n**原文摘录：** “Risk exploitation or doing whatever you can to make sure the positive risk happens”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 教材原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| ensure that an opportunity occurs | make sure the positive risk happens | 同义替换 | opportunity 即 positive risk；ensure occurs 即 make sure happens。 |",
+    "knowledgePointIds": [
+      "kp_risk_exploitation"
+    ],
+    "knowledgePoint": "风险开拓/利用",
+    "mnemonic": "Exploit = make opportunity happen。",
+    "trap": "只用于机会/正面风险，不是威胁。"
+  },
+  {
+    "id": "Q50",
+    "num": 50,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following are sub-processes associated with project communication management?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sequence activities"
+      },
+      {
+        "key": "B",
+        "text": "Continuous Improvement"
+      },
+      {
+        "key": "C",
+        "text": "Distribution of information"
+      },
+      {
+        "key": "D",
+        "text": "Validate work involved"
+      }
+    ],
+    "note": "",
+    "answerKey": "C",
+    "answerText": "Distribution of information",
+    "chapter": "第10章 Project Communications Management",
+    "chapterId": "CH10",
+    "chapterNo": 10,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 C",
+    "source": "PPT/Chapter 10.pdf，第6页",
+    "sourceExcerpt": "“Managing communications: Creating, distributing, storing, retrieving, and disposing of project communications”。",
+    "explanationMd": "**答案：** C. Distribution of information  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 C  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 10.pdf`，第6页。  \n**原文摘录：** “Managing communications: Creating, distributing, storing, retrieving, and disposing of project communications”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| Distribution of information | distributing ... project communications | 词形替换 | 选项把 managing communications 中的 distributing 抽成名词短语。 |\n\n**排除法说明：** A 属进度，B 属质量，D 属范围；题干问 communication management，故选 C。",
+    "knowledgePointIds": [
+      "kp_information_distribution"
+    ],
+    "knowledgePoint": "信息分发",
+    "mnemonic": "Distribution = communications。",
+    "trap": "Sequence 属进度，Validate 属范围，Continuous improvement 属质量。"
+  },
+  {
+    "id": "Q51",
+    "num": 51,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following are sub-processes associated with project quality management?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sequence activities"
+      },
+      {
+        "key": "B",
+        "text": "Continuous Improvement"
+      },
+      {
+        "key": "C",
+        "text": "Distribution of information"
+      },
+      {
+        "key": "D",
+        "text": "Validate work involved"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "Continuous Improvement",
+    "chapter": "第8章 Project Quality Management",
+    "chapterId": "CH08",
+    "chapterNo": 8,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 C",
+    "source": "PPT/Chapter 08.pdf，第12页",
+    "sourceExcerpt": "“Another goal of quality assurance is continuous quality improvement”。",
+    "explanationMd": "**答案：** B. Continuous Improvement  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 C  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 08.pdf`，第12页。  \n**原文摘录：** “Another goal of quality assurance is continuous quality improvement”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| Continuous Improvement | continuous quality improvement | 省略修饰语 | 选项省略 quality，但仍对应质量保证/质量管理。 |\n\n**排除法说明：** A 属进度，C 属沟通，D 属范围；题干问 quality management，故选 B。",
+    "knowledgePointIds": [
+      "kp_continuous_improvement"
+    ],
+    "knowledgePoint": "持续改进",
+    "mnemonic": "Continuous improvement = quality。",
+    "trap": "题干点名 quality management 时，不要选沟通或范围过程。"
+  },
+  {
+    "id": "Q52",
+    "num": 52,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "What documents include a complete set of organized project records that provide an accurate history of the project?",
+    "options": [
+      {
+        "key": "A",
+        "text": "project archives"
+      },
+      {
+        "key": "B",
+        "text": "forecasts"
+      },
+      {
+        "key": "C",
+        "text": "project plans"
+      },
+      {
+        "key": "D",
+        "text": "project notes"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "project archives",
+    "chapter": "第10章 Project Communications Management",
+    "chapterId": "CH10",
+    "chapterNo": 10,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 10.pdf，第42页",
+    "sourceExcerpt": "“Project archives are a complete set of organized project records that provide an accurate history of the project”。",
+    "explanationMd": "**答案：** A. project archives  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 10.pdf`，第42页。  \n**原文摘录：** “Project archives are a complete set of organized project records that provide an accurate history of the project”。  \n**一致性或同义替换说明：** 题干与课件原文一致。",
+    "knowledgePointIds": [
+      "kp_project_archives"
+    ],
+    "knowledgePoint": "项目档案",
+    "mnemonic": "Archives = organized historical records。",
+    "trap": "status report 只说明当前状态，不是完整档案。"
+  },
+  {
+    "id": "Q53",
+    "num": 53,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which document addresses where the project stands in terms of meeting scope, time, and cost goals?",
+    "options": [
+      {
+        "key": "A",
+        "text": "technical reports"
+      },
+      {
+        "key": "B",
+        "text": "status reports"
+      },
+      {
+        "key": "C",
+        "text": "progress reports"
+      },
+      {
+        "key": "D",
+        "text": "lessons-learned reports"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "status reports",
+    "chapter": "第10章 Project Communications Management",
+    "chapterId": "CH10",
+    "chapterNo": 10,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 10.pdf，第28页",
+    "sourceExcerpt": "“Status reports describe where the project stands at a specific point in time”。",
+    "explanationMd": "**答案：** B. status reports  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 10.pdf`，第28页。  \n**原文摘录：** “Status reports describe where the project stands at a specific point in time”。  \n**一致性或同义替换说明：** 题干 “where the project stands” 与课件原文一致；题干补充的 scope/time/cost goals 是状态报告常见维度。",
+    "knowledgePointIds": [
+      "kp_status_reports"
+    ],
+    "knowledgePoint": "状态报告",
+    "mnemonic": "Status = where the project stands now。",
+    "trap": "forecast 是预测未来，progress report 是进展。"
+  },
+  {
+    "id": "Q54",
+    "num": 54,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "__________ is a testing stage where two or more software units are joined and tested simultaneously.",
+    "options": [
+      {
+        "key": "A",
+        "text": "integration"
+      },
+      {
+        "key": "B",
+        "text": "unit"
+      },
+      {
+        "key": "C",
+        "text": "user acceptance"
+      },
+      {
+        "key": "D",
+        "text": "system"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "integration",
+    "chapter": "第8章 Project Quality Management",
+    "chapterId": "CH08",
+    "chapterNo": 8,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 F",
+    "source": "PPT/Chapter 08.pdf，第48页",
+    "sourceExcerpt": "“Integration testing occurs between unit and system testing to test functionally grouped components”。",
+    "explanationMd": "**答案：** A. integration  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 F  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 08.pdf`，第48页。  \n**原文摘录：** “Integration testing occurs between unit and system testing to test functionally grouped components”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| two or more software units are joined and tested simultaneously | functionally grouped components | 同义概括 | 集成测试关注组合后的组件/单元是否协同工作。 |\n\n**排除法说明：** unit 是单元测试，system 是整体系统测试，user acceptance 是用户验收；“joined units” 指 integration。",
+    "knowledgePointIds": [
+      "kp_integration_testing"
+    ],
+    "knowledgePoint": "集成测试",
+    "mnemonic": "Integration = joined units/components。",
+    "trap": "system testing 是整个系统作为整体测试。"
+  },
+  {
+    "id": "Q55",
+    "num": 55,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which of the following are sub-processes associated with project scope management?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sequence activities"
+      },
+      {
+        "key": "B",
+        "text": "Continuous Improvement"
+      },
+      {
+        "key": "C",
+        "text": "Distribution of information"
+      },
+      {
+        "key": "D",
+        "text": "Validate work involved"
+      }
+    ],
+    "note": "",
+    "answerKey": "D",
+    "answerText": "Validate work involved",
+    "chapter": "第5章 Project Scope Management",
+    "chapterId": "CH05",
+    "chapterNo": 5,
+    "category": "2 + 4",
+    "sharedGroup": "共享选项组 C",
+    "source": "PPT/Chapter 05.pdf，第5页",
+    "sourceExcerpt": "“Validating scope: formalizing acceptance of the project deliverables”。",
+    "explanationMd": "**答案：** D. Validate work involved  \n**分类：** 2 + 4  \n**共享选项组：** 共享选项组 C  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 05.pdf`，第5页。  \n**原文摘录：** “Validating scope: formalizing acceptance of the project deliverables”。  \n**一致性或同义替换说明：**\n\n| 题目/选项表述 | 课件原文表述 | 替换类型 | 判断说明 |\n| ------- | ------ | ---- | ---- |\n| Validate work involved | Validating scope | 同义/不严谨改写 | scope 指项目所包含的工作，选项用 work involved 改写。 |\n| sub-processes associated with project scope management | Project scope management processes include ... Validating scope | 概念对应 | Validate scope 属于范围管理过程。 |\n\n**排除法说明：** 同组选项 A 属进度，B 属质量，C 属沟通，只有 D 对应范围管理。",
+    "knowledgePointIds": [
+      "kp_validate_scope"
+    ],
+    "knowledgePoint": "确认范围",
+    "mnemonic": "Validate scope = formal acceptance of deliverables。",
+    "trap": "题目写 Validate work involved，是对 scope 的不严谨改写。"
+  },
+  {
+    "id": "Q56",
+    "num": 56,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which term is used for a significant event on a project that normally has no duration?",
+    "options": [
+      {
+        "key": "A",
+        "text": "milestone"
+      },
+      {
+        "key": "B",
+        "text": "activity attribute"
+      },
+      {
+        "key": "C",
+        "text": "activity sequence"
+      },
+      {
+        "key": "D",
+        "text": "schedule baseline"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "milestone",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "1 + 4",
+    "sharedGroup": "共享选项组 H",
+    "source": "PPT/Chapter 06.pdf，第12页",
+    "sourceExcerpt": "“A milestone is a significant event that normally has no duration”。",
+    "explanationMd": "**答案：** A. milestone  \n**分类：** 1 + 4  \n**共享选项组：** 共享选项组 H  \n**依据来源：** 课件；排除法。  \n**具体出处：** `PPT/Chapter 06.pdf`，第12页。  \n**原文摘录：** “A milestone is a significant event that normally has no duration”。  \n**一致性或同义替换说明：** 题干与课件原文一致。  \n**排除法说明：** activity attribute、activity sequence、schedule baseline 都不是“通常无持续时间的重大事件”。",
+    "knowledgePointIds": [
+      "kp_milestone"
+    ],
+    "knowledgePoint": "里程碑",
+    "mnemonic": "Milestone = 点，不是任务段。",
+    "trap": "milestone 不是 WBS，也不是网络图；它是关键节点。"
+  },
+  {
+    "id": "Q57",
+    "num": 57,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which reserves allow for future situations that are unpredictable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Contingency reserves"
+      },
+      {
+        "key": "B",
+        "text": "Management reserves"
+      },
+      {
+        "key": "C",
+        "text": "Known unknowns"
+      },
+      {
+        "key": "D",
+        "text": "Cost baseline reserves"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "Management reserves",
+    "chapter": "第7章 Project Cost Management",
+    "chapterId": "CH07",
+    "chapterNo": 7,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 07.pdf，第15页",
+    "sourceExcerpt": "“Management reserves allow for future situations that are unpredictable (sometimes called unknown unknowns)”。",
+    "explanationMd": "**答案：** B. Management reserves  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 07.pdf`，第15页。  \n**原文摘录：** “Management reserves allow for future situations that are unpredictable (sometimes called unknown unknowns)”。  \n**一致性或同义替换说明：** 题干与课件原文一致。",
+    "knowledgePointIds": [
+      "kp_management_reserves"
+    ],
+    "knowledgePoint": "管理储备",
+    "mnemonic": "Management reserve = unknown unknowns。",
+    "trap": "contingency reserve 通常对应已识别风险。"
+  },
+  {
+    "id": "Q58",
+    "num": 58,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "A(n) __________ is a process in which a company solicits select suppliers to submit price bids for the chance to fulfil certain tasks or projects.",
+    "options": [
+      {
+        "key": "A",
+        "text": "RFQ"
+      },
+      {
+        "key": "B",
+        "text": "WBS"
+      },
+      {
+        "key": "C",
+        "text": "RFP"
+      },
+      {
+        "key": "D",
+        "text": "SOW"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "RFQ",
+    "chapter": "第12章 Project Procurement Management",
+    "chapterId": "CH12",
+    "chapterNo": 12,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 12.pdf，第27页",
+    "sourceExcerpt": "“Requests for Quotes: Used to solicit quotes or bids from prospective suppliers”。",
+    "explanationMd": "**答案：** A. RFQ  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 12.pdf`，第27页。  \n**原文摘录：** “Requests for Quotes: Used to solicit quotes or bids from prospective suppliers”。  \n**一致性或同义替换说明：** 题干 “solicits select suppliers to submit price bids” 与课件原文高度一致，RFQ 即 Request for Quote。",
+    "knowledgePointIds": [
+      "kp_rfq"
+    ],
+    "knowledgePoint": "报价请求 RFQ",
+    "mnemonic": "RFQ = request quotes。",
+    "trap": "看到 price bids / submit quotes 选 RFQ。"
+  },
+  {
+    "id": "Q59",
+    "num": 59,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "Which technique involves network diagramming and is used primarily to predict total project duration?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gantt chart"
+      },
+      {
+        "key": "B",
+        "text": "critical path analysis"
+      },
+      {
+        "key": "C",
+        "text": "resource breakdown structure"
+      },
+      {
+        "key": "D",
+        "text": "arrow diagramming method"
+      }
+    ],
+    "note": "",
+    "answerKey": "B",
+    "answerText": "critical path analysis",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 06.pdf，第34页",
+    "sourceExcerpt": "“CPM is a network diagramming technique used to predict total project duration”。",
+    "explanationMd": "**答案：** B. critical path analysis  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 06.pdf`，第34页。  \n**原文摘录：** “CPM is a network diagramming technique used to predict total project duration”。  \n**一致性或同义替换说明：** critical path analysis 对应 CPM/critical path method，题干 “network diagramming ... predict total project duration” 与原文一致。",
+    "knowledgePointIds": [
+      "kp_critical_path_analysis"
+    ],
+    "knowledgePoint": "关键路径分析",
+    "mnemonic": "CPM = predict total project duration。",
+    "trap": "critical path analysis 是技术，critical path 是路径本身。"
+  },
+  {
+    "id": "Q60",
+    "num": 60,
+    "type": "single_choice",
+    "point": 1,
+    "stem": "What term is used for the amount of time an activity can be delayed from its early start without delaying the planned project finish date?",
+    "options": [
+      {
+        "key": "A",
+        "text": "total slack"
+      },
+      {
+        "key": "B",
+        "text": "free float"
+      },
+      {
+        "key": "C",
+        "text": "backward pass"
+      },
+      {
+        "key": "D",
+        "text": "forward pass"
+      }
+    ],
+    "note": "",
+    "answerKey": "A",
+    "answerText": "total slack",
+    "chapter": "第6章 Project Time Management",
+    "chapterId": "CH06",
+    "chapterNo": 6,
+    "category": "1",
+    "sharedGroup": "无",
+    "source": "PPT/Chapter 06.pdf，第38页",
+    "sourceExcerpt": "“Total slack or total float is the amount of time an activity may be delayed from its early start without delaying the planned project finish date”。",
+    "explanationMd": "**答案：** A. total slack  \n**分类：** 1  \n**共享选项组：** 无  \n**依据来源：** 课件。  \n**具体出处：** `PPT/Chapter 06.pdf`，第38页。  \n**原文摘录：** “Total slack or total float is the amount of time an activity may be delayed from its early start without delaying the planned project finish date”。  \n**一致性或同义替换说明：** 题干与课件原文一致。",
+    "knowledgePointIds": [
+      "kp_total_slack"
+    ],
+    "knowledgePoint": "总时差",
+    "mnemonic": "Slack = delay allowed without delaying finish。",
+    "trap": "free slack 与 total slack 不同；题干说不影响 project finish date 是 total slack。"
+  }
+]
