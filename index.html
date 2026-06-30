@@ -26,7 +26,7 @@
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); line-height: 1.55; }
 button, input { font: inherit; }
 .topbar { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line-soft); backdrop-filter: blur(10px); }
-.topbar-inner { max-width: 1280px; margin: 0 auto; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.topbar-inner { max-width: 1280px; margin: 0 auto; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
 .brand h1 { font-size: 18px; margin: 0; }
 .brand p { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
 .top-stats { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
@@ -50,7 +50,7 @@ button, input { font: inherit; }
 .small { font-size: 12px; }
 .setup-group { margin-bottom: 14px; }
 .setup-label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
-.segmented { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.segmented { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
 .mode-btn { border-radius: 7px; padding: 9px 10px; text-align: left; font-size: 13px; }
 .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .field { display: flex; flex-direction: column; gap: 6px; font-size: 12px; color: var(--muted); }
@@ -109,15 +109,53 @@ summary { cursor: pointer; color: var(--muted); font-size: 12px; }
 .status-warn { color: var(--warn); font-weight: 700; }
 .hidden { display: none !important; }
 textarea { font-family: var(--mono); border: 1px solid var(--line); border-radius: 7px; padding: 8px; }
+
+/* New feature styles */
+.kp-tag { display: inline-flex; border: 1px solid var(--line-soft); border-radius: 999px; background: var(--surface-2); padding: 2px 7px; font-size: 11px; color: var(--muted); margin-bottom: 10px; }
+.kp-chapter-label { font-size: 11px; font-weight: 700; color: var(--primary); padding: 6px 4px 2px; border-bottom: 1px solid var(--line-soft); margin-top: 4px; }
+
+.bookmark-btn { background: none; border: 1px solid var(--line); cursor: pointer; font-size: 14px; border-radius: 7px; padding: 4px 8px; color: var(--muted); }
+.bookmark-btn.favorited { border-color: #d4a017; color: #d4a017; background: #fff9ed; }
+
+.search-wrap { position: relative; flex: 1; max-width: 360px; min-width: 200px; }
+.search-wrap input { padding-right: 30px; }
+.search-results { position: absolute; top: 100%; left: 0; right: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); max-height: 360px; overflow: auto; z-index: 30; box-shadow: 0 8px 24px rgba(0,0,0,.12); }
+.search-result-item { padding: 10px 12px; cursor: pointer; border-bottom: 1px solid var(--line-soft); font-size: 13px; display: flex; flex-direction: column; gap: 4px; }
+.search-result-item:hover { background: var(--primary-soft); }
+.search-result-item .stem { font-weight: 600; }
+.search-result-item .meta { font-size: 11px; color: var(--muted); display: flex; gap: 8px; }
+
+.wrongbook-row { display: grid; grid-template-columns: 24px minmax(0,1fr) auto auto auto; gap: 8px; align-items: center; border-bottom: 1px solid var(--line-soft); padding: 9px 0; font-size: 13px; cursor: pointer; }
+.wrongbook-row:hover { background: var(--primary-soft); }
+.wrongbook-row input[type="checkbox"] { width: auto; cursor: pointer; }
+
+.weak-kp-row { display: flex; gap: 12px; align-items: center; border-bottom: 1px solid var(--line-soft); padding: 9px 0; font-size: 13px; cursor: pointer; }
+.weak-kp-row:hover { background: var(--primary-soft); }
+.weak-kp-row b { white-space: nowrap; }
+
+.heatmap-row { display: flex; gap: 3px; align-items: center; margin-bottom: 4px; }
+.heatmap-row-label { font-size: 11px; font-weight: 700; color: var(--primary); min-width: 40px; white-space: nowrap; }
+.heatmap-cell { width: 28px; height: 28px; border-radius: 3px; cursor: pointer; position: relative; flex-shrink: 0; }
+.heatmap-cell:hover { outline: 2px solid var(--primary); }
+.heatmap-cell[data-tooltip]:hover::after {
+  content: attr(data-tooltip); position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%);
+  background: var(--ink); color: #fff; padding: 4px 8px; border-radius: 4px;
+  font-size: 11px; white-space: nowrap; z-index: 10; pointer-events: none;
+}
+
 @media (max-width: 980px) {
   .topbar-inner { align-items: flex-start; flex-direction: column; }
   .top-stats { justify-content: flex-start; }
+  .search-wrap { max-width: none; width: 100%; }
   .main-grid, .stats-grid { grid-template-columns: 1fr; }
   .dashboard-grid { grid-template-columns: 1fr 1fr; }
   .chapter-row { grid-template-columns: 64px 1fr; }
   .chapter-row .bar { grid-column: 1 / -1; }
-  .memory-row, .attempt-row { grid-template-columns: 1fr; }
+  .memory-row, .attempt-row, .wrongbook-row { grid-template-columns: 1fr; }
   .quiz-shell { min-height: auto; }
+  .segmented { grid-template-columns: 1fr 1fr; }
+  .weak-kp-row { flex-wrap: wrap; }
+  .heatmap-row { flex-wrap: wrap; }
 }
 @media (max-width: 640px) {
   .app { padding: 14px; }
@@ -127,6 +165,7 @@ textarea { font-family: var(--mono); border: 1px solid var(--line); border-radiu
   .progress { width: 100%; }
   .result-head { grid-template-columns: 1fr; }
   .option { grid-template-columns: 28px 1fr; }
+  .wrongbook-row { grid-template-columns: 1fr; }
 }
   </style>
 </head>
@@ -136,6 +175,10 @@ textarea { font-family: var(--mono); border: 1px solid var(--line); border-radiu
     <div class="brand">
       <h1>项目管理刷题工具</h1>
       <p>专注刷题；作答时隐藏答案、章节和出处</p>
+    </div>
+    <div class="search-wrap">
+      <input type="text" id="globalSearch" placeholder="搜索题目、知识点、章节..." autocomplete="off">
+      <div class="search-results hidden" id="searchResults"></div>
     </div>
     <div class="top-stats">
       <span class="stat-pill"><b id="topTotal">60</b>题</span>
@@ -150,6 +193,8 @@ textarea { font-family: var(--mono); border: 1px solid var(--line); border-radiu
     <button class="tab active" data-view="quiz">刷题</button>
     <button class="tab" data-view="memory">记忆曲线</button>
     <button class="tab" data-view="records">练习记录</button>
+    <button class="tab" data-view="wrongbook">错题本</button>
+    <button class="tab" data-view="graph">知识图谱</button>
   </nav>
 
   <section id="view-quiz" class="view active">
@@ -163,18 +208,31 @@ textarea { font-family: var(--mono); border: 1px solid var(--line); border-radiu
             <button class="mode-btn" data-mode="chapter">按章节</button>
             <button class="mode-btn" data-mode="due">到期复习</button>
             <button class="mode-btn" data-mode="wrong">错题重练</button>
+            <button class="mode-btn" data-mode="knowledge">按知识点</button>
+            <button class="mode-btn" data-mode="favorites">收藏题目</button>
           </div>
         </div>
         <div class="setup-group">
           <div class="setup-label">章节范围</div>
           <div class="chapter-list" id="chapterList"></div>
         </div>
+        <div class="setup-group" id="kpPickerGroup">
+          <div class="setup-label">知识点范围</div>
+          <div class="chapter-list" id="knowledgePointList"></div>
+        </div>
         <div class="setup-group field-row">
+          <label class="field">题库<select id="questionSet" style="width:100%"><option value="all">全部题目（120题）</option><option value="set1">第一套（Q01–Q60）</option><option value="set2">第二套（Q61–Q120）</option></select></label>
           <label class="field">题数<input id="questionCount" type="number" min="1" max="60" value="20"></label>
           <label class="field">限时分钟<input id="timeLimit" type="number" min="0" value="0"></label>
         </div>
         <label class="check-row"><input id="shuffleQuestions" type="checkbox" checked> 随机打乱题目顺序</label>
         <label class="check-row"><input id="shuffleOptions" type="checkbox"> 随机打乱选项顺序</label>
+        <div class="setup-group">
+          <div class="setup-label">错题移除条件</div>
+          <div style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted)">
+            连续答对 <input id="wrongThreshold" type="number" min="1" max="10" value="2" style="width:52px"> 次后，不再出现在错题重练中
+          </div>
+        </div>
         <div class="start-row">
           <button id="startQuiz" class="btn primary">开始刷题</button>
           <button id="clearChapters" class="btn">清空章节</button>
@@ -210,16 +268,65 @@ textarea { font-family: var(--mono); border: 1px solid var(--line); border-radiu
       <section class="panel"><h2>章节正确率</h2><div id="chapterStats"></div></section>
       <section class="panel"><h2>复习队列</h2><div class="toolbar"><button class="btn primary" id="startDueFromMemory">开始到期复习</button><button class="btn" id="startWrongFromMemory">练错题</button></div><div id="memoryQueue"></div></section>
     </div>
+    <section class="panel" id="weakKPSection" style="margin-top:14px">
+      <h2>薄弱知识点</h2>
+      <div id="weakKPList"></div>
+    </section>
+    <section class="panel" id="trendPanel" style="margin-top:14px">
+      <h2>做题趋势</h2>
+      <div style="position:relative;height:320px;max-width:100%">
+        <canvas id="trendChart"></canvas>
+      </div>
+    </section>
+    <section class="panel" id="heatmapPanel" style="margin-top:14px">
+      <h2>掌握度热力图</h2>
+      <p class="muted small">悬浮查看详情，点击细胞直接练习该知识点。</p>
+      <div id="heatmapGrid" style="overflow-x:auto"></div>
+    </section>
   </section>
 
   <section id="view-records" class="view">
     <div class="stats-grid">
       <section class="panel"><h2>练习记录</h2><div id="attemptList"></div></section>
-      <section class="panel"><h2>数据管理</h2><p class="muted small">记录保存在当前浏览器的 localStorage 中。</p><div class="toolbar"><button class="btn" id="exportData">导出记录</button><button class="btn danger" id="resetData">清空记录</button></div><textarea id="exportBox" class="hidden" rows="12" style="width:100%;margin-top:10px"></textarea></section>
+      <section class="panel"><h2>数据管理</h2><p class="muted small">记录保存在当前浏览器的 localStorage 中。</p><div class="toolbar"><button class="btn" id="exportData">导出记录</button><button class="btn" id="importQuestionsBtn">导入题目</button><button class="btn danger" id="resetData">清空记录</button></div><textarea id="exportBox" class="hidden" rows="12" style="width:100%;margin-top:10px"></textarea><textarea id="importBox" class="hidden" rows="8" style="width:100%;margin-top:10px" placeholder="粘贴新题目的 JSON 数组到这里..."></textarea><button id="doImportQuestions" class="btn primary hidden" style="margin-top:6px">确认导入</button></section>
+    </div>
+  </section>
+
+  <section id="view-wrongbook" class="view">
+    <div class="stats-grid">
+      <section class="panel">
+        <h2>错题本</h2>
+        <div class="toolbar">
+          <button class="btn primary" id="startWrongBookQuiz">练习选中错题</button>
+          <button class="btn" id="selectAllWrong">全选</button>
+        </div>
+        <div id="wrongBookList"></div>
+      </section>
+      <section class="panel">
+        <h2>题目预览</h2>
+        <div id="wrongBookDetail" class="empty">点击错题查看详情</div>
+      </section>
+    </div>
+  </section>
+
+  <section id="view-graph" class="view">
+    <div class="panel" style="min-height:600px">
+      <h2>知识点关系图谱 <span class="muted small">— 滚轮缩放 · 拖拽平移 · 点击节点查看题目</span></h2>
+      <svg id="graphSvg" width="100%" height="600"></svg>
+      <div class="panel" id="graphDetailPanel" style="margin-top:12px; display:none">
+        <h3 id="graphDetailTitle"></h3>
+        <div id="graphDetailQuestions"></div>
+      </div>
     </div>
   </section>
 </main>
 <script src="questions.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+<script src="state.js"></script>
+<script src="memory.js"></script>
+<script src="quiz.js"></script>
+<script src="ui.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
